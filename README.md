@@ -36,7 +36,7 @@ Run Sirena (without installing)
     ./sirena.py
 
 
-Install and run Pogo
+Install and run Sirena
 --------------------
 
     sudo make install
