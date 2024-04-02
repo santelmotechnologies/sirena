@@ -1,0 +1,2 @@
+debian/sirena-crashdb.conf etc/apport/crashdb.conf.d/
+debian/source_sirena.py usr/share/apport/package-hooks/

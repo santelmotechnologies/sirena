@@ -1,0 +1,42 @@
+Source: sirena
+Section: sound
+Priority: optional
+Maintainer: Santelmo Technologies <santelmotechnologies@gmail.com>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: python3, dh-python
+Standards-Version: 3.9.6
+Homepage: https://github.com/santelmotechnologies/sirena
+Vcs-Git: git://github.com/santelmotechnologies/sirena.git
+Vcs-Browser: https://github.com/santelmotechnologies/sirena
+
+Package: sirena
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         gir1.2-gdkpixbuf-2.0,
+         gir1.2-glib-2.0,
+         gir1.2-gstreamer-1.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         gstreamer1.0-plugins-base,
+         gstreamer1.0-plugins-good,
+         gstreamer1.0-pulseaudio,
+         python3-dbus,
+         python3-gi,
+         python3-mutagen,
+         python3-pil
+Recommends: gir1.2-notify-0.7,
+            gnome-settings-daemon,
+            gstreamer1.0-plugins-bad,
+            gstreamer1.0-plugins-ugly
+Description: Sirena is a fast and minimalist audio player for Linux. It
+ groups tracks by album, which uses less space and simplifies
+ rearranging your playlist. Sirena does not organize your tracks in a
+ music library and does not stream or download tracks. Therefore, it is
+ best suited for people who store their tracks by album and want a
+ simple way of playing them. Sirena allows you to quickly search for music
+ on local drives and in the playlist. It also features an equalizer and
+ displays covers and desktop notifications. Sirena is a fork of
+ Pogo. Pogo is a fork of Decibel
+ Audio Player and supports most common audio formats. It is written in
+ Python and uses GTK+ and GStreamer.

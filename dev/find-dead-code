@@ -1,0 +1,10 @@
+#! /bin/bash
+
+set -euo pipefail
+
+cd "$(dirname "$0")"
+cd ..
+
+pyflakes dev/whitelist.py
+python3 dev/whitelist.py
+vulture sirena.py sirena dev/whitelist.py

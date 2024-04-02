@@ -1,0 +1,4 @@
+?package(sirena):needs="X11"\
+	section="Applications/Sound"\
+	title="Sirena Audio Player"\
+	command="/usr/bin/sirena"

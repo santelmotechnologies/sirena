@@ -1,0 +1,7 @@
+sirena (1.0) experimental; urgency=low
+
+  * Initial debian packaging
+  * New release
+
+ -- Santelmo Technologies <santelmotechnologies@gmail.com>
+ -- Emir Ebreo <emir.ebreo@gmail.com>
