@@ -1,0 +1,472 @@
+# Marathi translation for sirena
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the sirena package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sirena\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-07-24 11:16+0200\n"
+"PO-Revision-Date: 2012-09-06 13:13+0000\n"
+"Last-Translator: प्रसाद पाटील <p.prasadpatil@gmail.com>\n"
+"Language-Team: Marathi <mr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-19 05:21+0000\n"
+"X-Generator: Launchpad (build 17746)\n"
+
+#: ../src/media/track/__init__.py:52
+msgid "Track number"
+msgstr "गाणे क्रमांक"
+
+#: ../src/media/track/__init__.py:53
+msgid "Title"
+msgstr "शीर्षक"
+
+#: ../src/media/track/__init__.py:54
+msgid "Artist"
+msgstr "कलाकार"
+
+#: ../src/media/track/__init__.py:55
+msgid "Album"
+msgstr "अल्बम"
+
+#: ../src/media/track/__init__.py:56
+msgid "Genre"
+msgstr "श्रेणी"
+
+#: ../src/media/track/__init__.py:57
+msgid "Date"
+msgstr "दिनांक"
+
+#: ../src/media/track/__init__.py:58
+msgid "Disc number"
+msgstr "डिस्क क्रमांक"
+
+#: ../src/media/track/__init__.py:59
+msgid "Bit rate"
+msgstr "बीट रेट"
+
+#: ../src/media/track/__init__.py:60
+msgid "Sample rate"
+msgstr "प्रतिरूप वारंवारता"
+
+#: ../src/media/track/__init__.py:61
+msgid "Duration in seconds (e.g., 194)"
+msgstr "सेकंदामध्ये कालावधी (उदा., १९४)"
+
+#: ../src/media/track/__init__.py:62
+msgid "Duration as a string (e.g., 3:14)"
+msgstr "कालावधी अक्षरामध्ये (उदा., ३:१४)"
+
+#: ../src/media/track/__init__.py:65
+msgid "Full path to the file"
+msgstr "फाईलचा पूर्ण मार्ग"
+
+#: ../src/media/track/__init__.py:150
+msgid "unknown"
+msgstr "अनोळखी"
+
+#: ../src/media/track/__init__.py:192
+#, python-format
+msgid "%(album)s  [Disc %(discnum)u]"
+msgstr "%(album)s [डिस्क %(discnum)u]"
+
+#: ../src/media/track/__init__.py:199
+msgid "CDDA Track"
+msgstr "सीडीडीए गाणी"
+
+#: ../src/gui/preferences.py:43
+msgid "Preferences"
+msgstr "तुमची पसंती"
+
+#: ../src/gui/preferences.py:129
+msgid "Unable to load this module."
+msgstr "हा विभाग लोड होत नाही"
+
+#: ../src/gui/preferences.py:138
+msgid "Modules"
+msgstr "विभाग"
+
+#: ../src/gui/preferences.py:139 ../src/modules/DesktopNotification.py:222
+#: ../src/modules/Covers.py:390
+msgid "Description"
+msgstr "वर्णन"
+
+#: ../src/gui/preferences.py:140
+msgid ""
+"This window shows the list of available modules. You can enable/disable a "
+"module by checking/unchecking the check box in front of it."
+msgstr ""
+"खाली उपलब्ध असलेल्या विभागांची नावे दर्शिवलेली आहेत. दिलेले विभाग सुरु/बंद "
+"करण्यासाठी तुम्ही पुढील पर्याय निवडू शकता."
+
+#: ../src/gui/preferences.py:142
+msgid "Configuring a Module"
+msgstr "ह्या विभागाची मांडणी होत आहे"
+
+#: ../src/gui/preferences.py:143
+msgid ""
+"When a module may be configured, a specific icon is displayed on the right "
+"of the corresponding line. To configure a module, simply select it and then "
+"click on the \"Preferences\" button on the bottom of the dialog box. Note "
+"that configuring a module is only possible when it is enabled."
+msgstr ""
+
+#: ../src/gui/about.py:40
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Mithun J. Shitole https://launchpad.net/~mithunit\n"
+"  Rakhi Attal https://launchpad.net/~attal-rakhi\n"
+"  प्रसाद पाटील https://launchpad.net/~p.prasadpatil"
+
+#: ../src/gui/about.py:44
+msgid "Developer:"
+msgstr "निर्माता:"
+
+#: ../src/gui/about.py:48
+msgid "Thanks to:"
+msgstr "यांना धन्यवाद:"
+
+#: ../src/modules/Search.py:33
+msgid "Search in your music folders"
+msgstr "संगीताच्या फोल्डर मध्ये शोधा"
+
+#: ../src/modules/Zeitgeist.py:28
+msgid "Send track information to the Zeitgeist service"
+msgstr "गाण्याची माहिती Zeitgeist service ला पाठवा"
+
+#: ../src/modules/FileExplorer.py:181
+msgid "loading..."
+msgstr "लोड होत आहे..."
+
+#: ../src/modules/FileExplorer.py:407
+msgid "Append"
+msgstr "जोडत आहे."
+
+#: ../src/modules/FileExplorer.py:419
+msgid "Open containing folder"
+msgstr "मुळ फोल्डर उघडा"
+
+#: ../src/modules/FileExplorer.py:443
+msgid "Add music folder"
+msgstr "संगीत फोल्डरची भर घाला"
+
+#: ../src/modules/FileExplorer.py:455
+msgid "Hide folder"
+msgstr "फोल्डर लपवा"
+
+#: ../src/modules/FileExplorer.py:469
+msgid "Choose a directory"
+msgstr "एक संचयिका निवडा"
+
+#: ../src/modules/FileExplorer.py:475
+msgid "Invalid Folder"
+msgstr "चुकीचा फोल्डर"
+
+#: ../src/modules/FileExplorer.py:476
+msgid "You cannot add your root or home folder to the music directories"
+msgstr ""
+"तुम्ही तुमचा मूळ(root) आणि होम फोल्डर संगीताच्या संचयिकेमध्ये समाविष्ट करू "
+"शकत नाही"
+
+#: ../src/modules/FileExplorer.py:483
+msgid "This path does not exist"
+msgstr "हा मार्ग अस्तित्वात नाही"
+
+#: ../src/modules/FileExplorer.py:484
+msgid "Please select an existing directory."
+msgstr "कृपया अस्तित्वात असलेली संचयिका निवडा"
+
+#: ../src/modules/FileExplorer.py:571
+msgid "Albums"
+msgstr "अल्बमस्"
+
+#: ../src/modules/FileExplorer.py:573
+msgid "Music"
+msgstr "संगीत"
+
+#: ../src/modules/FileExplorer.py:650
+msgid "Right-click to add music folders"
+msgstr "संगीत फोल्डर मिळवण्यासाठी माउसचे उजवे बटण दाबा"
+
+#: ../src/modules/FileExplorer.py:701
+msgid "Searching ..."
+msgstr "शोधत आहे ..."
+
+#: ../src/modules/FileExplorer.py:727
+msgid "No tracks found"
+msgstr "गाणे सापडले नाही"
+
+#: ../src/modules/FileExplorer.py:729
+msgid "No music folders have been added"
+msgstr "कोणत्याही संगीत फोल्डरचा समावेश केला गेला नाही"
+
+#: ../src/modules/__init__.py:75
+msgid "The following Python modules are not available:"
+msgstr "खालील पायथोन विभाग उपलब्ध नाही:"
+
+#: ../src/modules/__init__.py:79
+msgid "You must install them if you want to enable this module."
+msgstr "हा विभाग सुरु करण्यासाठी तुम्हाला ते प्रतिष्ठापित करणे गरजेचे आहे"
+
+#: ../src/modules/__init__.py:266
+msgid "Restart required"
+msgstr "आवश्यक असलेले पुन्हा सुरु करा"
+
+#: ../src/modules/__init__.py:267
+msgid ""
+"You must restart the application for this modification to take effect."
+msgstr ""
+"केलेला बदल वापरात येण्याकरिता तुम्हाला हा उपक्रम बंद करून पुन्हा चालू करावा "
+"लागेल"
+
+#: ../src/modules/CtrlPanel.py:184 ../src/modules/CtrlPanel.py:240
+msgid "Pause the current track"
+msgstr "चालू गाण्याला विराम द्या"
+
+#: ../src/modules/CtrlPanel.py:200
+msgid "Play the first selected track of the playlist"
+msgstr "सूचीमधील निवडलेले पहिले गाणे सुरु करा"
+
+#: ../src/modules/CtrlPanel.py:234
+msgid "Continue playing the current track"
+msgstr "चालू गाणे सुरु करा"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Desktop Notification"
+msgstr "संगणक पडद्यावरील सूचना"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Display a desktop notification on track change"
+msgstr "गाणे बदलल्यानंतर संगणक पडद्यावर सूचना दाखवा"
+
+#: ../src/modules/DesktopNotification.py:83
+#: ../src/modules/DesktopNotification.py:197
+msgid "Skip track"
+msgstr "गाणे वगळा"
+
+#: ../src/modules/DesktopNotification.py:223
+msgid ""
+"This module displays a small popup window on your desktop when a new track "
+"starts."
+msgstr ""
+"नवीन गाणे चालू झाल्यानंतर हा विभाग  तुमच्या संगणक पडद्यावर सूचना दाखवतो."
+
+#: ../src/modules/DesktopNotification.py:224
+msgid ""
+"If the Covers module is enabled, the popup also shows the album cover."
+msgstr ""
+"मुखपृष्ट विभाग चालू केल्यानंतर  त्वरित सूचनेमध्ये अल्बम मुखपृष्टाचाही उल्लेख "
+"केला जातो."
+
+#: ../src/modules/DesktopNotification.py:225
+msgid "Customizing the Notification"
+msgstr "सोयीनुसार बदल"
+
+#: ../src/modules/DesktopNotification.py:226
+msgid ""
+"You can change the title and the body of the notification to any text you "
+"want. Before displaying the popup window, fields of the form {field} are "
+"replaced by their corresponding value. Available fields are:\n"
+"\n"
+msgstr ""
+"आपल्या इच्छेनुसार त्वरित सूचनेचे शीर्षक व माहिती बदलू शकता.  त्वरित सूचना "
+"दर्शविण्याच्या अगोदर, फोर्ममधील {field} क्षेत्राची योग्य जागा भरणे गरजेचे "
+"आहे. उपलब्ध क्षेत्रांची नावे:\n"
+"\n"
+
+#: ../src/modules/DesktopNotification.py:229
+msgid "Markup"
+msgstr "मार्कअप"
+
+#: ../src/modules/DesktopNotification.py:230
+msgid ""
+"You can use the Pango markup language to format the text. More information "
+"on that language is available on the following web page:"
+msgstr ""
+"मजकुराच्या रूपरेषेसाठी तुम्ही पांगो मार्कअप भाषेचा उपयोग करू शकता. या "
+"भाषेबद्दलची आणखी माहिती खालील संकेतस्थळावर उपलब्ध आहे:"
+
+#: ../src/modules/StatusbarTitlebar.py:48
+msgid "[paused]"
+msgstr "[विराम]"
+
+#: ../src/modules/Covers.py:28
+msgid "Covers"
+msgstr "आच्छादन"
+
+#: ../src/modules/Covers.py:28
+msgid "Show album covers"
+msgstr "अल्बम आच्छादन दाखवा"
+
+#: ../src/modules/Covers.py:391
+msgid ""
+"This module displays the cover of the album the current track comes from. "
+"Covers may be loaded from local pictures, located in the same directory as "
+"the current track, or may be downloaded from the Internet."
+msgstr ""
+
+#: ../src/modules/Covers.py:394
+msgid "User Covers"
+msgstr "उपयोगकर्त्याचे मुखपृष्ठ"
+
+#: ../src/modules/Covers.py:395
+#, python-format
+msgid ""
+"A user cover is a picture located in the same directory as the current "
+"track. When specifying filenames, you do not need to provide file "
+"extensions, supported file formats (%s) are automatically used."
+msgstr ""
+
+#: ../src/modules/Covers.py:398
+msgid "Internet Covers"
+msgstr "इंटरनेटचे मुखपृष्ठ"
+
+#: ../src/modules/Covers.py:399
+msgid ""
+"Covers may be downloaded from the Internet, based on the tags of the current "
+"track. You can ask to always prefer user covers to Internet ones. In this "
+"case, if a user cover exists for the current track, it is used. If there is "
+"none, the cover is downloaded."
+msgstr ""
+
+#: ../src/modules/Tracktree.py:382 ../src/modules/Tracktree.py:457
+msgid "Export playlist to file"
+msgstr ""
+
+#: ../src/modules/Tracktree.py:390 ../src/modules/Tracktree.py:462
+msgid "Export playlist to directory"
+msgstr ""
+
+#: ../src/modules/Tracktree.py:447
+msgid "Clear Playlist"
+msgstr "गानेक्रमानिका खोडा"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Equalizer"
+msgstr "समतोलक"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Tune the level of the frequency bands"
+msgstr "वारंवारता सारणी चा स्तर निश्चित करा"
+
+#: ../src/modules/Equalizer.py:125 ../src/modules/Equalizer.py:213
+#: ../src/modules/Equalizer.py:226
+msgid "Custom"
+msgstr "सानुकूल"
+
+#: ../src/modules/Equalizer.py:166
+msgid "Save levels"
+msgstr ""
+
+#: ../src/modules/Equalizer.py:177
+msgid "Load levels"
+msgstr ""
+
+#: ../src/modules/Equalizer.py:204
+msgid "Could not load the file"
+msgstr "फाईल लोड करता येत नाही"
+
+#: ../src/modules/Equalizer.py:204
+msgid "The format of the file is incorrect."
+msgstr "फाईलची रूपरेषा चुकीची आहे"
+
+#: ../src/tools/consts.py:92
+msgid "Unknown Genre"
+msgstr "चुकीची श्रेणी"
+
+#: ../src/tools/consts.py:93
+msgid "Unknown Title"
+msgstr "अज्ञात शीर्षक"
+
+#: ../src/tools/consts.py:94
+msgid "Unknown Album"
+msgstr "अज्ञात अल्बम"
+
+#: ../src/tools/consts.py:95
+msgid "Unknown Artist"
+msgstr "अज्ञात कलाकार"
+
+#: ../src/tools/consts.py:103
+msgid "Unknown Album Artist"
+msgstr "अज्ञात अल्बम कलाकार"
+
+#: ../res/Covers.ui.h:1
+msgid "Filenames:"
+msgstr "फाईलची नावे:"
+
+#: ../res/Covers.ui.h:2
+msgid "Filenames to look for (e.g., folder, cover)"
+msgstr "शोधण्यासाठी फाईलची नावे(उदा.,फोल्डर,मुखपृष्ठ)"
+
+#: ../res/Covers.ui.h:3
+msgid "<b>User Covers</b>"
+msgstr "<b>उपयोगकर्त्याचे मुखपृष्ठ</b>"
+
+#: ../res/Covers.ui.h:4
+msgid "Download covers"
+msgstr "डाऊनलोड मुखपृष्ठे"
+
+#: ../res/Covers.ui.h:5
+msgid "Try to download covers from the Internet"
+msgstr ""
+
+#: ../res/Covers.ui.h:6
+msgid "Always prefer user covers"
+msgstr "नेहमी उपयोगकर्त्याच्या मुखपृष्ठास पसंती द्या"
+
+#: ../res/Covers.ui.h:7
+msgid "Don't download covers when there is a user one"
+msgstr ""
+
+#: ../res/Covers.ui.h:8
+msgid "<b>Internet Covers</b>"
+msgstr "<b> इंटरनेटवरील मुखपृष्ठ</b>"
+
+#: ../res/DesktopNotification.ui.h:1
+msgid "<b>Title</b>"
+msgstr "<b>शीर्षक</b>"
+
+#: ../res/DesktopNotification.ui.h:2
+msgid "<b>Body</b>"
+msgstr "<b>मजकूर</b>"
+
+#: ../res/DesktopNotification.ui.h:3
+msgid "Show a \"skip track\" button"
+msgstr "\"गाण्याला विराम\" देण्याचे बटन दर्शवा"
+
+#: ../res/DesktopNotification.ui.h:4
+msgid "Notification timeout:"
+msgstr "सूचनेचा कार्यकाल:"
+
+#: ../res/DesktopNotification.ui.h:5
+msgid "Time during which the notification is displayed"
+msgstr ""
+
+#: ../res/DesktopNotification.ui.h:6
+msgid "seconds"
+msgstr "सेकंद"
+
+#: ../res/DesktopNotification.ui.h:7
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>विविध</b>"
+
+#: ../res/Equalizer.ui.h:1
+msgid "Preset:"
+msgstr ""
+
+#: ../res/MainWindow.ui.h:1
+msgid "Play the previous track"
+msgstr "आधीचे गाणे चालावा"
+
+#: ../res/MainWindow.ui.h:2
+msgid "Play the first track of the playlist"
+msgstr "गानेक्रमानिकेतील पहिले गाणे चालावा"
+
+#: ../res/MainWindow.ui.h:3
+msgid "Play the next track"
+msgstr "पुढील गाणे चालवा"

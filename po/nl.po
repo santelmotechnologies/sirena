@@ -1,0 +1,484 @@
+# Dutch translation for decibel-audio-player
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the decibel-audio-player package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: decibel-audio-player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-24 11:16+0200\n"
+"PO-Revision-Date: 2010-11-08 09:14+0000\n"
+"Last-Translator: Peter Schelleman <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-19 05:21+0000\n"
+"X-Generator: Launchpad (build 17746)\n"
+
+#: ../src/media/track/__init__.py:52
+msgid "Track number"
+msgstr "Nummer"
+
+#: ../src/media/track/__init__.py:53
+msgid "Title"
+msgstr "Titel"
+
+#: ../src/media/track/__init__.py:54
+msgid "Artist"
+msgstr "Artiest"
+
+#: ../src/media/track/__init__.py:55
+msgid "Album"
+msgstr "Album"
+
+#: ../src/media/track/__init__.py:56
+msgid "Genre"
+msgstr "Genre"
+
+#: ../src/media/track/__init__.py:57
+msgid "Date"
+msgstr "Datum"
+
+#: ../src/media/track/__init__.py:58
+msgid "Disc number"
+msgstr "Schijfnummer"
+
+#: ../src/media/track/__init__.py:59
+msgid "Bit rate"
+msgstr "Bitsnelheid"
+
+#: ../src/media/track/__init__.py:60
+msgid "Sample rate"
+msgstr "Sample snelheid"
+
+#: ../src/media/track/__init__.py:61
+msgid "Duration in seconds (e.g., 194)"
+msgstr "Duur in seconden (bijv. 194)"
+
+#: ../src/media/track/__init__.py:62
+msgid "Duration as a string (e.g., 3:14)"
+msgstr "Duur als in een string (bijv. 3:14)"
+
+#: ../src/media/track/__init__.py:65
+msgid "Full path to the file"
+msgstr "Volledig pad naar het bestand"
+
+#: ../src/media/track/__init__.py:150
+msgid "unknown"
+msgstr "onbekend"
+
+#: ../src/media/track/__init__.py:192
+#, python-format
+msgid "%(album)s  [Disc %(discnum)u]"
+msgstr "%(album)s [Schijf %(discnum)u]"
+
+#: ../src/media/track/__init__.py:199
+msgid "CDDA Track"
+msgstr "CDDA spoor"
+
+#: ../src/gui/preferences.py:43
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: ../src/gui/preferences.py:129
+msgid "Unable to load this module."
+msgstr "Niet in staat om deze module te laden"
+
+#: ../src/gui/preferences.py:138
+msgid "Modules"
+msgstr "Modules"
+
+#: ../src/gui/preferences.py:139 ../src/modules/DesktopNotification.py:222
+#: ../src/modules/Covers.py:390
+msgid "Description"
+msgstr "Beschrijving"
+
+#: ../src/gui/preferences.py:140
+msgid ""
+"This window shows the list of available modules. You can enable/disable a "
+"module by checking/unchecking the check box in front of it."
+msgstr ""
+"Dit kader toont een lijst van beschikbare modules. Je kunt een module "
+"aan/uitzetten via het blokje ervoor"
+
+#: ../src/gui/preferences.py:142
+msgid "Configuring a Module"
+msgstr "Configureren van een Module"
+
+#: ../src/gui/preferences.py:143
+msgid ""
+"When a module may be configured, a specific icon is displayed on the right "
+"of the corresponding line. To configure a module, simply select it and then "
+"click on the \"Preferences\" button on the bottom of the dialog box. Note "
+"that configuring a module is only possible when it is enabled."
+msgstr ""
+"Wanneer een module geconfigureerd mag worden, verschijnt een een specifiek "
+"pictogram aan de rechterkant van de lijn. Om een module te configureren, "
+"klik simpelweg op de module en klik dan op de \"Voorkeuren\" knop onderaan "
+"het dialoogvenster. Let op dat het configureren van een module alleen "
+"mogelijk is wanneer het aan staat."
+
+#: ../src/gui/about.py:40
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Peter Schelleman https://launchpad.net/~peterschelleman\n"
+"  Robert Wubs https://launchpad.net/~wubsieonline"
+
+#: ../src/gui/about.py:44
+msgid "Developer:"
+msgstr "Ontwikkelaar:"
+
+#: ../src/gui/about.py:48
+msgid "Thanks to:"
+msgstr "Met dank aan:"
+
+#: ../src/modules/Search.py:33
+msgid "Search in your music folders"
+msgstr "Zoek in je muziek mappen"
+
+#: ../src/modules/Zeitgeist.py:28
+msgid "Send track information to the Zeitgeist service"
+msgstr "Zend spoor informatie naar de Zeitgeist service"
+
+#: ../src/modules/FileExplorer.py:181
+msgid "loading..."
+msgstr "laden...."
+
+#: ../src/modules/FileExplorer.py:407
+msgid "Append"
+msgstr "Voeg toe"
+
+#: ../src/modules/FileExplorer.py:419
+msgid "Open containing folder"
+msgstr "Open de map met inhoud"
+
+#: ../src/modules/FileExplorer.py:443
+msgid "Add music folder"
+msgstr "Voeg een muziek map toe"
+
+#: ../src/modules/FileExplorer.py:455
+msgid "Hide folder"
+msgstr "Verberg de map"
+
+#: ../src/modules/FileExplorer.py:469
+msgid "Choose a directory"
+msgstr "kies een map"
+
+#: ../src/modules/FileExplorer.py:475
+msgid "Invalid Folder"
+msgstr ""
+
+#: ../src/modules/FileExplorer.py:476
+msgid "You cannot add your root or home folder to the music directories"
+msgstr ""
+
+#: ../src/modules/FileExplorer.py:483
+msgid "This path does not exist"
+msgstr "Dit pad bestaat niet"
+
+#: ../src/modules/FileExplorer.py:484
+msgid "Please select an existing directory."
+msgstr "Kies a.u.b. een bestaande map"
+
+#: ../src/modules/FileExplorer.py:571
+msgid "Albums"
+msgstr "Albums"
+
+#: ../src/modules/FileExplorer.py:573
+msgid "Music"
+msgstr "Muziek"
+
+#: ../src/modules/FileExplorer.py:650
+msgid "Right-click to add music folders"
+msgstr ""
+
+#: ../src/modules/FileExplorer.py:701
+msgid "Searching ..."
+msgstr "Aan het zoeken ..."
+
+#: ../src/modules/FileExplorer.py:727
+msgid "No tracks found"
+msgstr "Geen sporen gevonden"
+
+#: ../src/modules/FileExplorer.py:729
+msgid "No music folders have been added"
+msgstr ""
+
+#: ../src/modules/__init__.py:75
+msgid "The following Python modules are not available:"
+msgstr "De volgende Python modules zijn niet beschikbaar"
+
+#: ../src/modules/__init__.py:79
+msgid "You must install them if you want to enable this module."
+msgstr "Je moet ze installeren als je deze module wil inschakelen"
+
+#: ../src/modules/__init__.py:266
+msgid "Restart required"
+msgstr "Herstart vereist"
+
+#: ../src/modules/__init__.py:267
+msgid ""
+"You must restart the application for this modification to take effect."
+msgstr "U moet het programma herstarten om deze wijziging door te voeren."
+
+#: ../src/modules/CtrlPanel.py:184 ../src/modules/CtrlPanel.py:240
+msgid "Pause the current track"
+msgstr "Pauzeer het huidige nummer"
+
+#: ../src/modules/CtrlPanel.py:200
+msgid "Play the first selected track of the playlist"
+msgstr "Speel het eerstgekozen nummer van de afspeel lijst"
+
+#: ../src/modules/CtrlPanel.py:234
+msgid "Continue playing the current track"
+msgstr "Ga door met het spelen van het huidige nummer"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Desktop Notification"
+msgstr "Desktopnotificaties"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Display a desktop notification on track change"
+msgstr "Laat een desktopnotificatie zien bij nummerverandering"
+
+#: ../src/modules/DesktopNotification.py:83
+#: ../src/modules/DesktopNotification.py:197
+msgid "Skip track"
+msgstr "Sla nummer over"
+
+#: ../src/modules/DesktopNotification.py:223
+msgid ""
+"This module displays a small popup window on your desktop when a new track "
+"starts."
+msgstr ""
+"Deze module laat een klein popup scherm zien op je desktop wanneer een nieuw "
+"nummer start"
+
+#: ../src/modules/DesktopNotification.py:224
+msgid ""
+"If the Covers module is enabled, the popup also shows the album cover."
+msgstr "Als de hoes module aanstaat toont de popup ook de hoes"
+
+#: ../src/modules/DesktopNotification.py:225
+msgid "Customizing the Notification"
+msgstr "Aanpassen van de notificatie"
+
+#: ../src/modules/DesktopNotification.py:226
+msgid ""
+"You can change the title and the body of the notification to any text you "
+"want. Before displaying the popup window, fields of the form {field} are "
+"replaced by their corresponding value. Available fields are:\n"
+"\n"
+msgstr ""
+"Je kan de titel en de body van de notificatie veranderen naar elke die tekst "
+"je maar wil. Voordat het popup scherm zich laat zien, worden de velden van "
+"het formulier {field} vervangen voor hun corresponderende waarde. "
+"Verkrijgbare velden zijn:\n"
+"\n"
+
+#: ../src/modules/DesktopNotification.py:229
+msgid "Markup"
+msgstr "Opmaak"
+
+#: ../src/modules/DesktopNotification.py:230
+msgid ""
+"You can use the Pango markup language to format the text. More information "
+"on that language is available on the following web page:"
+msgstr ""
+"Je kan de Pango markup taal gebruiken om de tekst te veranderen. Meer "
+"informatie over de taal is verkrijgbaar op de volgende webpagina:"
+
+#: ../src/modules/StatusbarTitlebar.py:48
+msgid "[paused]"
+msgstr "[gepauzeerd]"
+
+#: ../src/modules/Covers.py:28
+msgid "Covers"
+msgstr "Albumhoezen"
+
+#: ../src/modules/Covers.py:28
+msgid "Show album covers"
+msgstr "Laat album hoezen zien"
+
+#: ../src/modules/Covers.py:391
+msgid ""
+"This module displays the cover of the album the current track comes from. "
+"Covers may be loaded from local pictures, located in the same directory as "
+"the current track, or may be downloaded from the Internet."
+msgstr ""
+"Deze module laat de omslag van het album zien waar het huidige nummer "
+"vandaan komt. Omslagen kunnen geladen worden vanuit lokale plaatjes, die "
+"geplaatst zijn in dezelfde map als het nummer, of ze kunnen geladen worden "
+"van het internet."
+
+#: ../src/modules/Covers.py:394
+msgid "User Covers"
+msgstr "Gebruikersomslagen"
+
+#: ../src/modules/Covers.py:395
+#, python-format
+msgid ""
+"A user cover is a picture located in the same directory as the current "
+"track. When specifying filenames, you do not need to provide file "
+"extensions, supported file formats (%s) are automatically used."
+msgstr ""
+"Een gebruikersomslag is een plaatje geplaatst in dezelfde map als het "
+"huidige nummer. Wanneer je een bestandsnaam specificeert, en je voert geen "
+"bestandsextensie in, dan worden bestandsformaten (%s) automatisch gebruikt."
+
+#: ../src/modules/Covers.py:398
+msgid "Internet Covers"
+msgstr "Internet Omslagen"
+
+#: ../src/modules/Covers.py:399
+msgid ""
+"Covers may be downloaded from the Internet, based on the tags of the current "
+"track. You can ask to always prefer user covers to Internet ones. In this "
+"case, if a user cover exists for the current track, it is used. If there is "
+"none, the cover is downloaded."
+msgstr ""
+"Omslagen kunnen gedownload worden van het internet, gebaseerd op de tags van "
+"het huidige nummer. Je kan aangeven of je liever gebruikersomslagen gebruikt "
+"in plaats van internetomslagen. In dit geval, als een gebruikersomslag "
+"bestaat voor het huidige nummer, wordt het gebruikt. Als er geen is, dan "
+"wordt de omslag gedownload."
+
+#: ../src/modules/Tracktree.py:382 ../src/modules/Tracktree.py:457
+msgid "Export playlist to file"
+msgstr ""
+
+#: ../src/modules/Tracktree.py:390 ../src/modules/Tracktree.py:462
+msgid "Export playlist to directory"
+msgstr ""
+
+#: ../src/modules/Tracktree.py:447
+msgid "Clear Playlist"
+msgstr "Verwijder de afspeellijst"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Tune the level of the frequency bands"
+msgstr "Stel het niveau van de frequenties af"
+
+#: ../src/modules/Equalizer.py:125 ../src/modules/Equalizer.py:213
+#: ../src/modules/Equalizer.py:226
+msgid "Custom"
+msgstr "Speciaal"
+
+#: ../src/modules/Equalizer.py:166
+msgid "Save levels"
+msgstr "Sla de niveaus op"
+
+#: ../src/modules/Equalizer.py:177
+msgid "Load levels"
+msgstr "Laad niveaus"
+
+#: ../src/modules/Equalizer.py:204
+msgid "Could not load the file"
+msgstr "Kon het bestand niet laden"
+
+#: ../src/modules/Equalizer.py:204
+msgid "The format of the file is incorrect."
+msgstr "Het bestandsformaat is niet correct."
+
+#: ../src/tools/consts.py:92
+msgid "Unknown Genre"
+msgstr "Onbekend genre"
+
+#: ../src/tools/consts.py:93
+msgid "Unknown Title"
+msgstr "Onbekende titel"
+
+#: ../src/tools/consts.py:94
+msgid "Unknown Album"
+msgstr "Onbekend album"
+
+#: ../src/tools/consts.py:95
+msgid "Unknown Artist"
+msgstr "Onbekende artiest"
+
+#: ../src/tools/consts.py:103
+msgid "Unknown Album Artist"
+msgstr "Onbekende Album Artiest"
+
+#: ../res/Covers.ui.h:1
+msgid "Filenames:"
+msgstr "Bestandsnamen:"
+
+#: ../res/Covers.ui.h:2
+msgid "Filenames to look for (e.g., folder, cover)"
+msgstr "Bestandsnamen waar naar gezocht moet worden (bijv. map, omslag)"
+
+#: ../res/Covers.ui.h:3
+msgid "<b>User Covers</b>"
+msgstr "<b>Gebruikerscovers</b>"
+
+#: ../res/Covers.ui.h:4
+msgid "Download covers"
+msgstr "Download omslagen"
+
+#: ../res/Covers.ui.h:5
+msgid "Try to download covers from the Internet"
+msgstr "Probeer covers van het internet te downloaden"
+
+#: ../res/Covers.ui.h:6
+msgid "Always prefer user covers"
+msgstr "Kies altijd gebruikersomslagen"
+
+#: ../res/Covers.ui.h:7
+msgid "Don't download covers when there is a user one"
+msgstr "Download geen omslagen wanneer er een gebruikersomslag is"
+
+#: ../res/Covers.ui.h:8
+msgid "<b>Internet Covers</b>"
+msgstr "<b>Internet Omslagen</b>"
+
+#: ../res/DesktopNotification.ui.h:1
+msgid "<b>Title</b>"
+msgstr "<b>Titel:</b>"
+
+#: ../res/DesktopNotification.ui.h:2
+msgid "<b>Body</b>"
+msgstr "<b>Body</b>"
+
+#: ../res/DesktopNotification.ui.h:3
+msgid "Show a \"skip track\" button"
+msgstr "Laat een 'sla nummer over' knop zien"
+
+#: ../res/DesktopNotification.ui.h:4
+msgid "Notification timeout:"
+msgstr "Notificatie timeout:"
+
+#: ../res/DesktopNotification.ui.h:5
+msgid "Time during which the notification is displayed"
+msgstr "Tijd voor het toenen van het bericht"
+
+#: ../res/DesktopNotification.ui.h:6
+msgid "seconds"
+msgstr "seconden"
+
+#: ../res/DesktopNotification.ui.h:7
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>Overig</b>"
+
+#: ../res/Equalizer.ui.h:1
+msgid "Preset:"
+msgstr "Voorinstelling:"
+
+#: ../res/MainWindow.ui.h:1
+msgid "Play the previous track"
+msgstr "Speel het vorige nummer af"
+
+#: ../res/MainWindow.ui.h:2
+msgid "Play the first track of the playlist"
+msgstr "Speel het eerste nummer van de afspeellijst af"
+
+#: ../res/MainWindow.ui.h:3
+msgid "Play the next track"
+msgstr "Speel het volgende nummer"

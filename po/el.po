@@ -1,0 +1,493 @@
+# Greek translation for decibel-audio-player
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the decibel-audio-player package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: decibel-audio-player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-24 11:16+0200\n"
+"PO-Revision-Date: 2012-09-09 07:30+0000\n"
+"Last-Translator: tzem <athmakrigiannis@gmail.com>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-19 05:21+0000\n"
+"X-Generator: Launchpad (build 17746)\n"
+
+#: ../src/media/track/__init__.py:52
+msgid "Track number"
+msgstr "Αριθμός κομματιού"
+
+#: ../src/media/track/__init__.py:53
+msgid "Title"
+msgstr "Τίτλος"
+
+#: ../src/media/track/__init__.py:54
+msgid "Artist"
+msgstr "Καλλιτέχνης"
+
+#: ../src/media/track/__init__.py:55
+msgid "Album"
+msgstr "Άλμπουμ"
+
+#: ../src/media/track/__init__.py:56
+msgid "Genre"
+msgstr "Είδος"
+
+#: ../src/media/track/__init__.py:57
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: ../src/media/track/__init__.py:58
+msgid "Disc number"
+msgstr "Αριθμος Δίσκου"
+
+#: ../src/media/track/__init__.py:59
+msgid "Bit rate"
+msgstr "Ρυθμός bit"
+
+#: ../src/media/track/__init__.py:60
+msgid "Sample rate"
+msgstr "Ρυθμός δειγματοληψίας"
+
+#: ../src/media/track/__init__.py:61
+msgid "Duration in seconds (e.g., 194)"
+msgstr "Διάρκεια σε δευτερόλεπτα (π.χ. 194)"
+
+#: ../src/media/track/__init__.py:62
+msgid "Duration as a string (e.g., 3:14)"
+msgstr "Διάρκεια"
+
+#: ../src/media/track/__init__.py:65
+msgid "Full path to the file"
+msgstr "Πλήρης διαδρομή προς το αρχείο"
+
+#: ../src/media/track/__init__.py:150
+msgid "unknown"
+msgstr "Άγνωστο"
+
+#: ../src/media/track/__init__.py:192
+#, python-format
+msgid "%(album)s  [Disc %(discnum)u]"
+msgstr "%(album)s [Δίσκος %(discnum)u]"
+
+#: ../src/media/track/__init__.py:199
+msgid "CDDA Track"
+msgstr "Τραγούδι CDDA"
+
+#: ../src/gui/preferences.py:43
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../src/gui/preferences.py:129
+msgid "Unable to load this module."
+msgstr "Το πρόσθετο δεν μπόρεσε να φορτωθεί."
+
+#: ../src/gui/preferences.py:138
+msgid "Modules"
+msgstr "Πρόσθετα"
+
+#: ../src/gui/preferences.py:139 ../src/modules/DesktopNotification.py:222
+#: ../src/modules/Covers.py:390
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: ../src/gui/preferences.py:140
+msgid ""
+"This window shows the list of available modules. You can enable/disable a "
+"module by checking/unchecking the check box in front of it."
+msgstr ""
+"Αυτό το παράθυρο εμφανίζει τη λίστα των διαθέσιμων μονάδων. Μπορείτε να "
+"ενεργοποιήσετε/απενεργοποιήσετε μια μονάδα με επιλογή/αποεπιλογή του "
+"πλαισίου ελέγχου μπροστά από αυτό."
+
+#: ../src/gui/preferences.py:142
+msgid "Configuring a Module"
+msgstr "Ρυθμίζοντας ένα πρόσθετο"
+
+#: ../src/gui/preferences.py:143
+msgid ""
+"When a module may be configured, a specific icon is displayed on the right "
+"of the corresponding line. To configure a module, simply select it and then "
+"click on the \"Preferences\" button on the bottom of the dialog box. Note "
+"that configuring a module is only possible when it is enabled."
+msgstr ""
+"Όταν ένα πρόσθετο μπορεί να ρυθμιστεί, υπάρχει ένα είκονίδιο στα δεξιά της "
+"αντίστοιχης γραμμής. Για να ρυθμίσετε το πρόσθετο, απλά επιλέξτε το και μετά "
+"κάντε κλικ στο κουμπί \"Προτιμήσεις\" που βρίσκεται στο κάτω μέρος του "
+"παραθύρου. Έχετε υπ' όψιν σας ότι ένα πρόσθετο μπορεί να ρυθμιστεί μόνο όταν "
+"είναι ενεργοποιημένο."
+
+#: ../src/gui/about.py:40
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Jendrik Seipp https://launchpad.net/~jendrikseipp\n"
+"  tzem https://launchpad.net/~athmakrigiannis"
+
+#: ../src/gui/about.py:44
+msgid "Developer:"
+msgstr "Δημιουργός:"
+
+#: ../src/gui/about.py:48
+msgid "Thanks to:"
+msgstr "Ευχαριστίες σε:"
+
+#: ../src/modules/Search.py:33
+msgid "Search in your music folders"
+msgstr "Αναζήτηση στους φακέλους μουσική σας"
+
+#: ../src/modules/Zeitgeist.py:28
+msgid "Send track information to the Zeitgeist service"
+msgstr "Αποστολή πληροφοριών κομματιού στην υπηρεσία Zeitgeist"
+
+#: ../src/modules/FileExplorer.py:181
+msgid "loading..."
+msgstr "φόρτωση..."
+
+#: ../src/modules/FileExplorer.py:407
+msgid "Append"
+msgstr "Προσάρτηση"
+
+#: ../src/modules/FileExplorer.py:419
+msgid "Open containing folder"
+msgstr "Άνοιγμα φακέλου που το περιέχει"
+
+#: ../src/modules/FileExplorer.py:443
+msgid "Add music folder"
+msgstr "Προσθήκη μουσικού φακέλου"
+
+#: ../src/modules/FileExplorer.py:455
+msgid "Hide folder"
+msgstr "Απόκρυψη φακέλου"
+
+#: ../src/modules/FileExplorer.py:469
+msgid "Choose a directory"
+msgstr "Επιλογή ενός καταλόγου"
+
+#: ../src/modules/FileExplorer.py:475
+msgid "Invalid Folder"
+msgstr "Μη έγκυρος φάκελος"
+
+#: ../src/modules/FileExplorer.py:476
+msgid "You cannot add your root or home folder to the music directories"
+msgstr ""
+"Δεν μπορείτε να προσθέσετε το ριζικό κατάλογο ή τον προσωπικό κατάλογο στους "
+"καταλόγους μουσικής"
+
+#: ../src/modules/FileExplorer.py:483
+msgid "This path does not exist"
+msgstr "Η διαδρομή αυτή δεν υπάρχει"
+
+#: ../src/modules/FileExplorer.py:484
+msgid "Please select an existing directory."
+msgstr "Παρακαλώ επιλέξτε ένα ήδη υπάρχον φάκελο"
+
+#: ../src/modules/FileExplorer.py:571
+msgid "Albums"
+msgstr "Άλμπουμ"
+
+#: ../src/modules/FileExplorer.py:573
+msgid "Music"
+msgstr "Μουσική"
+
+#: ../src/modules/FileExplorer.py:650
+msgid "Right-click to add music folders"
+msgstr "Δεξί κλικ για προσθήκη στους φακέλους μουσικής"
+
+#: ../src/modules/FileExplorer.py:701
+msgid "Searching ..."
+msgstr "Αναζήτηση …"
+
+#: ../src/modules/FileExplorer.py:727
+msgid "No tracks found"
+msgstr "Δεν βρέθηκαν τραγούδια"
+
+#: ../src/modules/FileExplorer.py:729
+msgid "No music folders have been added"
+msgstr "Δεν έχουν προστεθεί φάκελοι μουσικής"
+
+#: ../src/modules/__init__.py:75
+msgid "The following Python modules are not available:"
+msgstr "Τα παρακάτω πρόσθετα της Python δεν είναι διαθέσιμα:"
+
+#: ../src/modules/__init__.py:79
+msgid "You must install them if you want to enable this module."
+msgstr ""
+"Πρέπει να τα εγκαταστήσετε αν θέλετε να ενεργοποιήσετε αυτό το πρόσθετο."
+
+#: ../src/modules/__init__.py:266
+msgid "Restart required"
+msgstr "Απαιτείται επανεκκίνηση"
+
+#: ../src/modules/__init__.py:267
+msgid ""
+"You must restart the application for this modification to take effect."
+msgstr ""
+"Πρέπει να επανεκκινήσετε την εφαρμογή για να εφαρμοστεί αυτή η αλλαγή."
+
+#: ../src/modules/CtrlPanel.py:184 ../src/modules/CtrlPanel.py:240
+msgid "Pause the current track"
+msgstr "Παύση"
+
+#: ../src/modules/CtrlPanel.py:200
+msgid "Play the first selected track of the playlist"
+msgstr "Παίξε το πρώτο επιλεγμένο κομμάτι της λίστας αναπαραγωγής"
+
+#: ../src/modules/CtrlPanel.py:234
+msgid "Continue playing the current track"
+msgstr "Συνέχεια"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Desktop Notification"
+msgstr "Ειδοποίηση επιφάνειας εργασίας"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Display a desktop notification on track change"
+msgstr ""
+"Εμφανίζει μια είδοποίηση στην επιφάνεια εργασίας όταν αλλάζει το κομμάτι."
+
+#: ../src/modules/DesktopNotification.py:83
+#: ../src/modules/DesktopNotification.py:197
+msgid "Skip track"
+msgstr "Επόμενο κομμάτι"
+
+#: ../src/modules/DesktopNotification.py:223
+msgid ""
+"This module displays a small popup window on your desktop when a new track "
+"starts."
+msgstr ""
+"Αυτό το πρόσθετο εμφανίζει ένα μικρό αναδυόμενο παράθυρο στην επιφάνεια "
+"εργασίας όταν ξεκινάει ένα νέο κομμάτι."
+
+#: ../src/modules/DesktopNotification.py:224
+msgid ""
+"If the Covers module is enabled, the popup also shows the album cover."
+msgstr ""
+"Εάν η μονάδα εξώφυλλων είναι ενεργοποιημένη, το αναδυόμενο παράθυρο δείχνει "
+"επίσης το εξώφυλλο του άλμπουμ."
+
+#: ../src/modules/DesktopNotification.py:225
+msgid "Customizing the Notification"
+msgstr "Προσαρμόζοντας τις ειδοποιήσεις"
+
+#: ../src/modules/DesktopNotification.py:226
+msgid ""
+"You can change the title and the body of the notification to any text you "
+"want. Before displaying the popup window, fields of the form {field} are "
+"replaced by their corresponding value. Available fields are:\n"
+"\n"
+msgstr ""
+"Μπορείτε να αλλάξετε τον τίτλο και το περιεχόμενο της είδοποίησης όπως σας "
+"βολεύει. Πρίν εμφανιστεί το αναδυόμενο παράθυρο πεδία της μορφής {πεδίο} "
+"αντικαθίστανται με την αντίστοιχη τιμή. Διαθέσιμα πεδία είναι τα:\n"
+"\n"
+
+#: ../src/modules/DesktopNotification.py:229
+msgid "Markup"
+msgstr "Προσημείωση"
+
+#: ../src/modules/DesktopNotification.py:230
+msgid ""
+"You can use the Pango markup language to format the text. More information "
+"on that language is available on the following web page:"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε την γλώσσα προσημειώσεων Pango για να "
+"διαμορφώσετε το κείμενο. Περισσότερες πληροφορίες για την γλώσσα αυτή "
+"μπορείτε να βρείτε στην ιστοσελίδα:"
+
+#: ../src/modules/StatusbarTitlebar.py:48
+msgid "[paused]"
+msgstr "[παύση]"
+
+#: ../src/modules/Covers.py:28
+msgid "Covers"
+msgstr "Εξώφυλλα"
+
+#: ../src/modules/Covers.py:28
+msgid "Show album covers"
+msgstr "Εμφάνιση Εξώφυλλων Δίσκων"
+
+#: ../src/modules/Covers.py:391
+msgid ""
+"This module displays the cover of the album the current track comes from. "
+"Covers may be loaded from local pictures, located in the same directory as "
+"the current track, or may be downloaded from the Internet."
+msgstr ""
+"Αυτό το πρόσθετο εμφανίζει το εξώφυλλο του άλμπουμ στο οποίο περιέχετε το "
+"τρέχον κομμάτι. Τα εξώφυλλα μπορούν να εμφανίζονται από τοπικά αρχεία που "
+"βρίσκονται στον ίδιο φάκελο με το τρέχον κομμάτι, ή να φορτώνονται από το "
+"διαδίκτυο."
+
+#: ../src/modules/Covers.py:394
+msgid "User Covers"
+msgstr "Εξώφυλλα χρηστών"
+
+#: ../src/modules/Covers.py:395
+#, python-format
+msgid ""
+"A user cover is a picture located in the same directory as the current "
+"track. When specifying filenames, you do not need to provide file "
+"extensions, supported file formats (%s) are automatically used."
+msgstr ""
+"Ένα εξώφυλλο χρήστη είναι μιά εικόνα που περιέχεται στον ίδιο φάκελο με το "
+"τρέχον κομμάτι. Όταν καθορίζετε τα ονόματα τών αρχείων δεν χρειάζετε να "
+"παρέχετε και τις επεκτάσεις τους. Οι τύποι αρχείων που υποστηρίζονται (%s) "
+"θα χρησιμοποιούνται αυτόματα."
+
+#: ../src/modules/Covers.py:398
+msgid "Internet Covers"
+msgstr "Εξώφυλλα από το διαδίκτυο"
+
+#: ../src/modules/Covers.py:399
+msgid ""
+"Covers may be downloaded from the Internet, based on the tags of the current "
+"track. You can ask to always prefer user covers to Internet ones. In this "
+"case, if a user cover exists for the current track, it is used. If there is "
+"none, the cover is downloaded."
+msgstr ""
+"Τα εξώφυλλα μπορούν να κατέβουν από το διαδίκτυο, με βάση τα στοιχέια του "
+"τρέχοντος κομματιού. Μπορείτε να δηλώσετε προτίμηση για εξώφυλλα χρήση "
+"έναντι εξώφυλλων διαδικτύου. Σε αυτή την περίπτωση, αν υπάρχει εξώφυλλο "
+"χρήστη για το τρέχον κομμάτι, θα χρησιμοποιηθεί. Άν όχι, θα χρησιμοποιηθεί "
+"εξώφυλλο από το διαδίκτυο."
+
+#: ../src/modules/Tracktree.py:382 ../src/modules/Tracktree.py:457
+msgid "Export playlist to file"
+msgstr "Εξαγωγή λίστας αναπαραγωγής σε αρχείο"
+
+#: ../src/modules/Tracktree.py:390 ../src/modules/Tracktree.py:462
+msgid "Export playlist to directory"
+msgstr "Εξαγωγή λίστας αναπαραγωγής σε κατάλογο"
+
+#: ../src/modules/Tracktree.py:447
+msgid "Clear Playlist"
+msgstr "Καθαρισμός λίστας αναπαραγωγής"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Equalizer"
+msgstr "Ισοσταθμιστής"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Tune the level of the frequency bands"
+msgstr "Ρύθμιση του επιπέδου των συχνοτήτων"
+
+#: ../src/modules/Equalizer.py:125 ../src/modules/Equalizer.py:213
+#: ../src/modules/Equalizer.py:226
+msgid "Custom"
+msgstr "Προσαρμογή"
+
+#: ../src/modules/Equalizer.py:166
+msgid "Save levels"
+msgstr "Αποθήκευση επιπέδων"
+
+#: ../src/modules/Equalizer.py:177
+msgid "Load levels"
+msgstr "Φόρτωση επιπέδων"
+
+#: ../src/modules/Equalizer.py:204
+msgid "Could not load the file"
+msgstr "Δεν ήταν δυνατή η φόρτωση του αρχείου"
+
+#: ../src/modules/Equalizer.py:204
+msgid "The format of the file is incorrect."
+msgstr "Η μορφή του αρχείου δεν είναι σωστή."
+
+#: ../src/tools/consts.py:92
+msgid "Unknown Genre"
+msgstr "Άγνωστο είδος"
+
+#: ../src/tools/consts.py:93
+msgid "Unknown Title"
+msgstr "Άγνωστος Τίτλος"
+
+#: ../src/tools/consts.py:94
+msgid "Unknown Album"
+msgstr "Άγνωστο άλμπουμ"
+
+#: ../src/tools/consts.py:95
+msgid "Unknown Artist"
+msgstr "Άγνωστος καλλιτέχνης"
+
+#: ../src/tools/consts.py:103
+msgid "Unknown Album Artist"
+msgstr "Άγνωστος Καλλιτέχνης Δίσκου"
+
+#: ../res/Covers.ui.h:1
+msgid "Filenames:"
+msgstr "Ονόματα αρχείων:"
+
+#: ../res/Covers.ui.h:2
+msgid "Filenames to look for (e.g., folder, cover)"
+msgstr "Ονόματα αρχείων για εξώφυλλα (π.χ., folder, cover, κλπ)"
+
+#: ../res/Covers.ui.h:3
+msgid "<b>User Covers</b>"
+msgstr "<b>Εξώφυλλα Χρήστη</b>"
+
+#: ../res/Covers.ui.h:4
+msgid "Download covers"
+msgstr "Κατέβασμα εξωφυλλων"
+
+#: ../res/Covers.ui.h:5
+msgid "Try to download covers from the Internet"
+msgstr "Προσπάθησε να κατεβάσεις εξώφυλλα από το διαδίκτυο"
+
+#: ../res/Covers.ui.h:6
+msgid "Always prefer user covers"
+msgstr "Πάντα προτίμηση εξώφυλλων χρήστη"
+
+#: ../res/Covers.ui.h:7
+msgid "Don't download covers when there is a user one"
+msgstr "Μην κατεβάζεις εξώφυλλα αν υπάρχει εξώφυλλο χρήστη."
+
+#: ../res/Covers.ui.h:8
+msgid "<b>Internet Covers</b>"
+msgstr "<b>Εξώφυλλα διαδικτύου</b>"
+
+#: ../res/DesktopNotification.ui.h:1
+msgid "<b>Title</b>"
+msgstr "<b>Τίτλος</b>"
+
+#: ../res/DesktopNotification.ui.h:2
+msgid "<b>Body</b>"
+msgstr "<b>Κορμός</b>"
+
+#: ../res/DesktopNotification.ui.h:3
+msgid "Show a \"skip track\" button"
+msgstr "Έμφάνισε ένα κουμπί \"Επόμενου\""
+
+#: ../res/DesktopNotification.ui.h:4
+msgid "Notification timeout:"
+msgstr "Χρόνος εμφάνισης ειδοποίησης"
+
+#: ../res/DesktopNotification.ui.h:5
+msgid "Time during which the notification is displayed"
+msgstr "Χρόνος κατά τον οποίο η ειδοποίηση εμφανίζεται"
+
+#: ../res/DesktopNotification.ui.h:6
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+#: ../res/DesktopNotification.ui.h:7
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>Διάφορα</b>"
+
+#: ../res/Equalizer.ui.h:1
+msgid "Preset:"
+msgstr "Προεπιλογή:"
+
+#: ../res/MainWindow.ui.h:1
+msgid "Play the previous track"
+msgstr "Αναπαραγωγή προηγούμενου κομματιού"
+
+#: ../res/MainWindow.ui.h:2
+msgid "Play the first track of the playlist"
+msgstr "Παίξε το πρώτο αρχείο στη λίστα"
+
+#: ../res/MainWindow.ui.h:3
+msgid "Play the next track"
+msgstr "Αναπαραγωγή επόμενου κομματιού"

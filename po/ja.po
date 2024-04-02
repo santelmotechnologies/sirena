@@ -1,0 +1,472 @@
+# Japanese translation for decibel-audio-player
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the decibel-audio-player package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: decibel-audio-player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-24 11:16+0200\n"
+"PO-Revision-Date: 2012-11-18 15:25+0000\n"
+"Last-Translator: Shushi Kurose <md81bird@hitaki.net>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-19 05:21+0000\n"
+"X-Generator: Launchpad (build 17746)\n"
+
+#: ../src/media/track/__init__.py:52
+msgid "Track number"
+msgstr "トラック番号"
+
+#: ../src/media/track/__init__.py:53
+msgid "Title"
+msgstr "タイトル"
+
+#: ../src/media/track/__init__.py:54
+msgid "Artist"
+msgstr "演奏者"
+
+#: ../src/media/track/__init__.py:55
+msgid "Album"
+msgstr "アルバム"
+
+#: ../src/media/track/__init__.py:56
+msgid "Genre"
+msgstr "ジャンル"
+
+#: ../src/media/track/__init__.py:57
+msgid "Date"
+msgstr "日付"
+
+#: ../src/media/track/__init__.py:58
+msgid "Disc number"
+msgstr "ディスク番号"
+
+#: ../src/media/track/__init__.py:59
+msgid "Bit rate"
+msgstr "ビットレート"
+
+#: ../src/media/track/__init__.py:60
+msgid "Sample rate"
+msgstr "サンプルレート"
+
+#: ../src/media/track/__init__.py:61
+msgid "Duration in seconds (e.g., 194)"
+msgstr "時間を秒単位で（例：194）"
+
+#: ../src/media/track/__init__.py:62
+msgid "Duration as a string (e.g., 3:14)"
+msgstr "時間を文字列として（例：3:14）"
+
+#: ../src/media/track/__init__.py:65
+msgid "Full path to the file"
+msgstr "ファイルへのフルパス"
+
+#: ../src/media/track/__init__.py:150
+msgid "unknown"
+msgstr "不明"
+
+#: ../src/media/track/__init__.py:192
+#, python-format
+msgid "%(album)s  [Disc %(discnum)u]"
+msgstr "%(album)s  [ディスク %(discnum)u]"
+
+#: ../src/media/track/__init__.py:199
+msgid "CDDA Track"
+msgstr "CDDAのトラック"
+
+#: ../src/gui/preferences.py:43
+msgid "Preferences"
+msgstr "設定"
+
+#: ../src/gui/preferences.py:129
+msgid "Unable to load this module."
+msgstr "このモジュールを読み込むことができません。"
+
+#: ../src/gui/preferences.py:138
+msgid "Modules"
+msgstr "モジュール"
+
+#: ../src/gui/preferences.py:139 ../src/modules/DesktopNotification.py:222
+#: ../src/modules/Covers.py:390
+msgid "Description"
+msgstr "説明"
+
+#: ../src/gui/preferences.py:140
+msgid ""
+"This window shows the list of available modules. You can enable/disable a "
+"module by checking/unchecking the check box in front of it."
+msgstr ""
+"このウィンドウでは利用可能なモジュールのリストを表示します。モジュールを有効にするにはチェックボックスにチェックを入れてください。無効にする場合はチェック"
+"を外してください。"
+
+#: ../src/gui/preferences.py:142
+msgid "Configuring a Module"
+msgstr "モジュールの設定"
+
+#: ../src/gui/preferences.py:143
+msgid ""
+"When a module may be configured, a specific icon is displayed on the right "
+"of the corresponding line. To configure a module, simply select it and then "
+"click on the \"Preferences\" button on the bottom of the dialog box. Note "
+"that configuring a module is only possible when it is enabled."
+msgstr ""
+"モジュールが設定されていれば、固有のアイコンが同じ列の右側に表示されます。モジュールを設定するには、モジュールを選択してダイアログボックスの下にある\"設"
+"定\"ボタンをクリックするだけです。設定したモジュールは有効にするまで利用できないことに注意してください。"
+
+#: ../src/gui/about.py:40
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Hiroshi Tagawa https://launchpad.net/~kuponuga\n"
+"  José Lou Chang https://launchpad.net/~obake\n"
+"  Kentaro Kazuhama https://launchpad.net/~kazken3\n"
+"  Shushi Kurose https://launchpad.net/~kuromabo\n"
+"  Tom Adams https://launchpad.net/~holizz"
+
+#: ../src/gui/about.py:44
+msgid "Developer:"
+msgstr "開発者:"
+
+#: ../src/gui/about.py:48
+msgid "Thanks to:"
+msgstr "Thanks to:"
+
+#: ../src/modules/Search.py:33
+msgid "Search in your music folders"
+msgstr "音楽フォルダー内を検索する"
+
+#: ../src/modules/Zeitgeist.py:28
+msgid "Send track information to the Zeitgeist service"
+msgstr "トラック情報をZeitgeistのサービスへ送信"
+
+#: ../src/modules/FileExplorer.py:181
+msgid "loading..."
+msgstr "読み込み中…"
+
+#: ../src/modules/FileExplorer.py:407
+msgid "Append"
+msgstr "追加"
+
+#: ../src/modules/FileExplorer.py:419
+msgid "Open containing folder"
+msgstr "保存先のフォルダーを開く"
+
+#: ../src/modules/FileExplorer.py:443
+msgid "Add music folder"
+msgstr "音楽フォルダーを追加"
+
+#: ../src/modules/FileExplorer.py:455
+msgid "Hide folder"
+msgstr "フォルダーを隠す"
+
+#: ../src/modules/FileExplorer.py:469
+msgid "Choose a directory"
+msgstr "ディレクトリを選択してください"
+
+#: ../src/modules/FileExplorer.py:475
+msgid "Invalid Folder"
+msgstr "無効なフォルダー"
+
+#: ../src/modules/FileExplorer.py:476
+msgid "You cannot add your root or home folder to the music directories"
+msgstr "ルートやホームフォルダーは音楽ディレクトリに追加できません"
+
+#: ../src/modules/FileExplorer.py:483
+msgid "This path does not exist"
+msgstr "このパスは存在しません"
+
+#: ../src/modules/FileExplorer.py:484
+msgid "Please select an existing directory."
+msgstr "既存であるディレクトリを選択してください。"
+
+#: ../src/modules/FileExplorer.py:571
+msgid "Albums"
+msgstr "アルバム"
+
+#: ../src/modules/FileExplorer.py:573
+msgid "Music"
+msgstr "音楽"
+
+#: ../src/modules/FileExplorer.py:650
+msgid "Right-click to add music folders"
+msgstr "右クリックで音楽フォルダーを追加"
+
+#: ../src/modules/FileExplorer.py:701
+msgid "Searching ..."
+msgstr "検索中..."
+
+#: ../src/modules/FileExplorer.py:727
+msgid "No tracks found"
+msgstr "トラックが見つかりません"
+
+#: ../src/modules/FileExplorer.py:729
+msgid "No music folders have been added"
+msgstr "音楽フォルダーが追加されていません"
+
+#: ../src/modules/__init__.py:75
+msgid "The following Python modules are not available:"
+msgstr "次のPythonモジュールが利用できません:"
+
+#: ../src/modules/__init__.py:79
+msgid "You must install them if you want to enable this module."
+msgstr "このモジュールを有効にするにはこれらをインストールする必要があります。"
+
+#: ../src/modules/__init__.py:266
+msgid "Restart required"
+msgstr "再起動が必要です"
+
+#: ../src/modules/__init__.py:267
+msgid ""
+"You must restart the application for this modification to take effect."
+msgstr "この変更を有効にするには、アプリケーションを再起動する必要があります。"
+
+#: ../src/modules/CtrlPanel.py:184 ../src/modules/CtrlPanel.py:240
+msgid "Pause the current track"
+msgstr "現在のトラックを一時停止"
+
+#: ../src/modules/CtrlPanel.py:200
+msgid "Play the first selected track of the playlist"
+msgstr "選択したプレイリストの最初のトラックを再生"
+
+#: ../src/modules/CtrlPanel.py:234
+msgid "Continue playing the current track"
+msgstr "現在のトラックの再生を続行する"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Desktop Notification"
+msgstr "デスクトップ通知"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Display a desktop notification on track change"
+msgstr "トラックを変更した時にデスクトップ通知を表示"
+
+#: ../src/modules/DesktopNotification.py:83
+#: ../src/modules/DesktopNotification.py:197
+msgid "Skip track"
+msgstr "トラックをスキップ"
+
+#: ../src/modules/DesktopNotification.py:223
+msgid ""
+"This module displays a small popup window on your desktop when a new track "
+"starts."
+msgstr "このモジュールは、新しいトラックが始まった時にデスクトップに小さいポップアップウィンドウを表示します。"
+
+#: ../src/modules/DesktopNotification.py:224
+msgid ""
+"If the Covers module is enabled, the popup also shows the album cover."
+msgstr "カバーモジュールを有効にすれば、ポップアップにアルバムカバーも表示します。"
+
+#: ../src/modules/DesktopNotification.py:225
+msgid "Customizing the Notification"
+msgstr "通知をカスタマイズする"
+
+#: ../src/modules/DesktopNotification.py:226
+msgid ""
+"You can change the title and the body of the notification to any text you "
+"want. Before displaying the popup window, fields of the form {field} are "
+"replaced by their corresponding value. Available fields are:\n"
+"\n"
+msgstr ""
+"通知のタイトルとボディーを好きなテキストに変更することができます。ポップアップウィンドウを表示する前に、フォーム{field}の領域はそれらに対応する値に"
+"置き換えられます。利用可能なフィールドは次のとおりです:\n"
+"\n"
+
+#: ../src/modules/DesktopNotification.py:229
+msgid "Markup"
+msgstr "マークアップ"
+
+#: ../src/modules/DesktopNotification.py:230
+msgid ""
+"You can use the Pango markup language to format the text. More information "
+"on that language is available on the following web page:"
+msgstr "テキストのフォーマットにPangoマークアップ言語が利用できます。この言語の追加情報は、次のウェブページにあります:"
+
+#: ../src/modules/StatusbarTitlebar.py:48
+msgid "[paused]"
+msgstr "[中止]"
+
+#: ../src/modules/Covers.py:28
+msgid "Covers"
+msgstr "カバー"
+
+#: ../src/modules/Covers.py:28
+msgid "Show album covers"
+msgstr "アルバムカバーを表示"
+
+#: ../src/modules/Covers.py:391
+msgid ""
+"This module displays the cover of the album the current track comes from. "
+"Covers may be loaded from local pictures, located in the same directory as "
+"the current track, or may be downloaded from the Internet."
+msgstr ""
+"このモジュールは、現在のトラックのアルバムのカバーを表示します。カバーは現在のトラックと同じディレクトリにある画像か、インターネットからダウンロードした画"
+"像からロードします。"
+
+#: ../src/modules/Covers.py:394
+msgid "User Covers"
+msgstr "ユーザーカバー"
+
+#: ../src/modules/Covers.py:395
+#, python-format
+msgid ""
+"A user cover is a picture located in the same directory as the current "
+"track. When specifying filenames, you do not need to provide file "
+"extensions, supported file formats (%s) are automatically used."
+msgstr ""
+"ユーザーカバーは現在のトラックと同じディレクトリに置かれています。ファイル名を指定する場合は、ファイル拡張子を指定する必要はなく、サポートしているファイル"
+"形式(%s)が自動的に使用されます。"
+
+#: ../src/modules/Covers.py:398
+msgid "Internet Covers"
+msgstr "インターネットカバー"
+
+#: ../src/modules/Covers.py:399
+msgid ""
+"Covers may be downloaded from the Internet, based on the tags of the current "
+"track. You can ask to always prefer user covers to Internet ones. In this "
+"case, if a user cover exists for the current track, it is used. If there is "
+"none, the cover is downloaded."
+msgstr ""
+"カバーは現在のトラックのタグに基づいて、インターネットからダウンロードされます。インターネットカバーよりユーザーカバーを常に選択することができます。この場"
+"合、ユーザーカバーが現在のトラックに存在するのであればユーザーカバーが使用されます。何もない場合、カバーがダウンロードされます。"
+
+#: ../src/modules/Tracktree.py:382 ../src/modules/Tracktree.py:457
+msgid "Export playlist to file"
+msgstr "プレイリストをファイルにエクスポート"
+
+#: ../src/modules/Tracktree.py:390 ../src/modules/Tracktree.py:462
+msgid "Export playlist to directory"
+msgstr "プレイリストをディレクトリにエクスポート"
+
+#: ../src/modules/Tracktree.py:447
+msgid "Clear Playlist"
+msgstr "プレイリストを消去"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Equalizer"
+msgstr "イコライザー"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Tune the level of the frequency bands"
+msgstr "周波数帯のレベルを合わせます"
+
+#: ../src/modules/Equalizer.py:125 ../src/modules/Equalizer.py:213
+#: ../src/modules/Equalizer.py:226
+msgid "Custom"
+msgstr "カスタム"
+
+#: ../src/modules/Equalizer.py:166
+msgid "Save levels"
+msgstr "レベルを保存"
+
+#: ../src/modules/Equalizer.py:177
+msgid "Load levels"
+msgstr "レベルを読み込む"
+
+#: ../src/modules/Equalizer.py:204
+msgid "Could not load the file"
+msgstr "ファイルを読み込めませんでした"
+
+#: ../src/modules/Equalizer.py:204
+msgid "The format of the file is incorrect."
+msgstr "ファイルの形式が間違っています。"
+
+#: ../src/tools/consts.py:92
+msgid "Unknown Genre"
+msgstr "ジャンル不明"
+
+#: ../src/tools/consts.py:93
+msgid "Unknown Title"
+msgstr "タイトル不明"
+
+#: ../src/tools/consts.py:94
+msgid "Unknown Album"
+msgstr "アルバム不明"
+
+#: ../src/tools/consts.py:95
+msgid "Unknown Artist"
+msgstr "アーティスト不明"
+
+#: ../src/tools/consts.py:103
+msgid "Unknown Album Artist"
+msgstr "アルバム・アーティスト不明"
+
+#: ../res/Covers.ui.h:1
+msgid "Filenames:"
+msgstr "ファイル名:"
+
+#: ../res/Covers.ui.h:2
+msgid "Filenames to look for (e.g., folder, cover)"
+msgstr "探すファイル名(例: folder,cover)"
+
+#: ../res/Covers.ui.h:3
+msgid "<b>User Covers</b>"
+msgstr "<b>ユーザーカバー</b>"
+
+#: ../res/Covers.ui.h:4
+msgid "Download covers"
+msgstr "カバーをダウンロードする"
+
+#: ../res/Covers.ui.h:5
+msgid "Try to download covers from the Internet"
+msgstr "インターネットからカバーをダウンロードして見てください"
+
+#: ../res/Covers.ui.h:6
+msgid "Always prefer user covers"
+msgstr "常にユーザーカバーを選ぶ"
+
+#: ../res/Covers.ui.h:7
+msgid "Don't download covers when there is a user one"
+msgstr "ユーザーカバーがある場合はインターネットからダウンロードしない"
+
+#: ../res/Covers.ui.h:8
+msgid "<b>Internet Covers</b>"
+msgstr "<b>インターネットカバー</b>"
+
+#: ../res/DesktopNotification.ui.h:1
+msgid "<b>Title</b>"
+msgstr "<b>タイトル</b>"
+
+#: ../res/DesktopNotification.ui.h:2
+msgid "<b>Body</b>"
+msgstr "<b>ボディー</b>"
+
+#: ../res/DesktopNotification.ui.h:3
+msgid "Show a \"skip track\" button"
+msgstr "\"トラックをスキップ\"ボタンを表示"
+
+#: ../res/DesktopNotification.ui.h:4
+msgid "Notification timeout:"
+msgstr "通知のタイムアウト:"
+
+#: ../res/DesktopNotification.ui.h:5
+msgid "Time during which the notification is displayed"
+msgstr "通知を表示している時間"
+
+#: ../res/DesktopNotification.ui.h:6
+msgid "seconds"
+msgstr "秒"
+
+#: ../res/DesktopNotification.ui.h:7
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>その他</b>"
+
+#: ../res/Equalizer.ui.h:1
+msgid "Preset:"
+msgstr "プリセット:"
+
+#: ../res/MainWindow.ui.h:1
+msgid "Play the previous track"
+msgstr "前のトラックを再生"
+
+#: ../res/MainWindow.ui.h:2
+msgid "Play the first track of the playlist"
+msgstr "プレイリストの最初のトラックを再生"
+
+#: ../res/MainWindow.ui.h:3
+msgid "Play the next track"
+msgstr "次のトラックを再生"

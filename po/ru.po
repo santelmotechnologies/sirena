@@ -1,0 +1,487 @@
+# Russian translation for decibel-audio-player
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the decibel-audio-player package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: decibel-audio-player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-24 11:16+0200\n"
+"PO-Revision-Date: 2012-08-29 12:26+0000\n"
+"Last-Translator: Oleg Koptev <koptev.oleg@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-19 05:21+0000\n"
+"X-Generator: Launchpad (build 17746)\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-Language: Russian\n"
+
+#: ../src/media/track/__init__.py:52
+msgid "Track number"
+msgstr "Номер дорожки"
+
+#: ../src/media/track/__init__.py:53
+msgid "Title"
+msgstr "Название"
+
+#: ../src/media/track/__init__.py:54
+msgid "Artist"
+msgstr "Исполнитель"
+
+#: ../src/media/track/__init__.py:55
+msgid "Album"
+msgstr "Альбом"
+
+#: ../src/media/track/__init__.py:56
+msgid "Genre"
+msgstr "Жанр"
+
+#: ../src/media/track/__init__.py:57
+msgid "Date"
+msgstr "Дата"
+
+#: ../src/media/track/__init__.py:58
+msgid "Disc number"
+msgstr "Номер диска"
+
+#: ../src/media/track/__init__.py:59
+msgid "Bit rate"
+msgstr "Битрейт"
+
+#: ../src/media/track/__init__.py:60
+msgid "Sample rate"
+msgstr "Частота дискретизации"
+
+#: ../src/media/track/__init__.py:61
+msgid "Duration in seconds (e.g., 194)"
+msgstr "Продолжительность в секундах (например, 194)"
+
+#: ../src/media/track/__init__.py:62
+msgid "Duration as a string (e.g., 3:14)"
+msgstr "Продолжительность (например, 3:14)"
+
+#: ../src/media/track/__init__.py:65
+msgid "Full path to the file"
+msgstr "Полный путь к файлу"
+
+#: ../src/media/track/__init__.py:150
+msgid "unknown"
+msgstr "неизвестно"
+
+#: ../src/media/track/__init__.py:192
+#, python-format
+msgid "%(album)s  [Disc %(discnum)u]"
+msgstr "%(album)s [Диск %(discnum)u]"
+
+#: ../src/media/track/__init__.py:199
+msgid "CDDA Track"
+msgstr "Дорожка CDDA"
+
+#: ../src/gui/preferences.py:43
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../src/gui/preferences.py:129
+msgid "Unable to load this module."
+msgstr "Не удалось загрузить данный модуль."
+
+#: ../src/gui/preferences.py:138
+msgid "Modules"
+msgstr "Модули"
+
+#: ../src/gui/preferences.py:139 ../src/modules/DesktopNotification.py:222
+#: ../src/modules/Covers.py:390
+msgid "Description"
+msgstr "Описание"
+
+#: ../src/gui/preferences.py:140
+msgid ""
+"This window shows the list of available modules. You can enable/disable a "
+"module by checking/unchecking the check box in front of it."
+msgstr ""
+"Это окно отображает список доступных модулей. Модули можно "
+"включить/выключить с помощью галочки перед названием модуля."
+
+#: ../src/gui/preferences.py:142
+msgid "Configuring a Module"
+msgstr "Настройка модулей"
+
+#: ../src/gui/preferences.py:143
+msgid ""
+"When a module may be configured, a specific icon is displayed on the right "
+"of the corresponding line. To configure a module, simply select it and then "
+"click on the \"Preferences\" button on the bottom of the dialog box. Note "
+"that configuring a module is only possible when it is enabled."
+msgstr ""
+"Когда модуль имеет собственные настройки, справа от модуля показывается "
+"особый значок. Чтобы настроить модуль, просто выберите его и нажмите кнопку "
+"«Параметры», которая расположена внизу диалогового окна."
+
+#: ../src/gui/about.py:40
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Alexey Ivanov https://launchpad.net/~alexey-ivanov\n"
+"  GamePad64 https://launchpad.net/~gamepad64\n"
+"  Oleg Koptev https://launchpad.net/~koptev-oleg\n"
+"  Serge Gavrilenko https://launchpad.net/~screamer-sg\n"
+"  Sergey Ivanov https://launchpad.net/~rus-patriot"
+
+#: ../src/gui/about.py:44
+msgid "Developer:"
+msgstr "Разработчик:"
+
+#: ../src/gui/about.py:48
+msgid "Thanks to:"
+msgstr "Благодарности:"
+
+#: ../src/modules/Search.py:33
+msgid "Search in your music folders"
+msgstr "Поиск в Ваших папках с музыкой"
+
+#: ../src/modules/Zeitgeist.py:28
+msgid "Send track information to the Zeitgeist service"
+msgstr "Отправить информацию о дорожке в службу Zeitgeist"
+
+#: ../src/modules/FileExplorer.py:181
+msgid "loading..."
+msgstr "загрузка..."
+
+#: ../src/modules/FileExplorer.py:407
+msgid "Append"
+msgstr "Добавить"
+
+#: ../src/modules/FileExplorer.py:419
+msgid "Open containing folder"
+msgstr "Открыть папку в обозревателе"
+
+#: ../src/modules/FileExplorer.py:443
+msgid "Add music folder"
+msgstr "Добавить папку с музыкой"
+
+#: ../src/modules/FileExplorer.py:455
+msgid "Hide folder"
+msgstr "Скрыть папку"
+
+#: ../src/modules/FileExplorer.py:469
+msgid "Choose a directory"
+msgstr "Выберите папку"
+
+#: ../src/modules/FileExplorer.py:475
+msgid "Invalid Folder"
+msgstr "Неверная Папка"
+
+#: ../src/modules/FileExplorer.py:476
+msgid "You cannot add your root or home folder to the music directories"
+msgstr ""
+"Вы не можете добавить корневую и домашнюю папки в список папок с музыкой"
+
+#: ../src/modules/FileExplorer.py:483
+msgid "This path does not exist"
+msgstr "Указанный путь не существует"
+
+#: ../src/modules/FileExplorer.py:484
+msgid "Please select an existing directory."
+msgstr "Выберите существующую папку."
+
+#: ../src/modules/FileExplorer.py:571
+msgid "Albums"
+msgstr "Альбомы"
+
+#: ../src/modules/FileExplorer.py:573
+msgid "Music"
+msgstr "Музыка"
+
+#: ../src/modules/FileExplorer.py:650
+msgid "Right-click to add music folders"
+msgstr "Правый клик для добавления папок с музыкой"
+
+#: ../src/modules/FileExplorer.py:701
+msgid "Searching ..."
+msgstr "Поиск..."
+
+#: ../src/modules/FileExplorer.py:727
+msgid "No tracks found"
+msgstr "Песни не найдены"
+
+#: ../src/modules/FileExplorer.py:729
+msgid "No music folders have been added"
+msgstr "Папки с музыкой не были добавлены"
+
+#: ../src/modules/__init__.py:75
+msgid "The following Python modules are not available:"
+msgstr "Следующие модули Python требуются, но не доступны:"
+
+#: ../src/modules/__init__.py:79
+msgid "You must install them if you want to enable this module."
+msgstr "Вам нужно установить их, если вы хотите использовать этот модуль."
+
+#: ../src/modules/__init__.py:266
+msgid "Restart required"
+msgstr "Требуется перезапуск"
+
+#: ../src/modules/__init__.py:267
+msgid ""
+"You must restart the application for this modification to take effect."
+msgstr "Вы должны перезапустить приложение, чтобы изменения вступили в силу."
+
+#: ../src/modules/CtrlPanel.py:184 ../src/modules/CtrlPanel.py:240
+msgid "Pause the current track"
+msgstr "Приостановить воспроизведение текущей композиции"
+
+#: ../src/modules/CtrlPanel.py:200
+msgid "Play the first selected track of the playlist"
+msgstr "Проиграть первую выбранную дорожку в списке воспроизведения"
+
+#: ../src/modules/CtrlPanel.py:234
+msgid "Continue playing the current track"
+msgstr "Продолжить воспроизведение текущей композиции"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Desktop Notification"
+msgstr "Уведомления на рабочем столе"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Display a desktop notification on track change"
+msgstr "Отображает уведомления на рабочем столе при смене композиции"
+
+#: ../src/modules/DesktopNotification.py:83
+#: ../src/modules/DesktopNotification.py:197
+msgid "Skip track"
+msgstr "Пропустить композицию"
+
+#: ../src/modules/DesktopNotification.py:223
+msgid ""
+"This module displays a small popup window on your desktop when a new track "
+"starts."
+msgstr ""
+"Этот модуль отображает небольшое всплывающее окно на вашем рабочем столе, "
+"когда начинает играть следующая композиция."
+
+#: ../src/modules/DesktopNotification.py:224
+msgid ""
+"If the Covers module is enabled, the popup also shows the album cover."
+msgstr ""
+"Если активирован модуль «Обложки», во всплывающем окне будет показана "
+"обложка альбома."
+
+#: ../src/modules/DesktopNotification.py:225
+msgid "Customizing the Notification"
+msgstr "Параметры уведомлений"
+
+#: ../src/modules/DesktopNotification.py:226
+msgid ""
+"You can change the title and the body of the notification to any text you "
+"want. Before displaying the popup window, fields of the form {field} are "
+"replaced by their corresponding value. Available fields are:\n"
+"\n"
+msgstr ""
+"Вы можете использовать любой текст в качестве заголовка и тела уведомления. "
+"Перед тем, как отобразить всплывающее окно, модуль заменяет все поля вида "
+"{поле} их соответствующими значениями. Доступны следующие поля:\n"
+"\n"
+
+#: ../src/modules/DesktopNotification.py:229
+msgid "Markup"
+msgstr "Разметка"
+
+#: ../src/modules/DesktopNotification.py:230
+msgid ""
+"You can use the Pango markup language to format the text. More information "
+"on that language is available on the following web page:"
+msgstr ""
+"Вы можете использовать язык разметки Pango для форматирования текста. "
+"Дополнительная информация доступна на следующем веб-сайте:"
+
+#: ../src/modules/StatusbarTitlebar.py:48
+msgid "[paused]"
+msgstr "[приостановлено]"
+
+#: ../src/modules/Covers.py:28
+msgid "Covers"
+msgstr "Обложки"
+
+#: ../src/modules/Covers.py:28
+msgid "Show album covers"
+msgstr "Показ обложек альбомов"
+
+#: ../src/modules/Covers.py:391
+msgid ""
+"This module displays the cover of the album the current track comes from. "
+"Covers may be loaded from local pictures, located in the same directory as "
+"the current track, or may be downloaded from the Internet."
+msgstr ""
+"Данный модуль отображает обложку альбома воспроизводимой композиции. Обложки "
+"могут быть локальными изображениями, расположенными в одной папке с "
+"композицией, либо они могут быть получены из Интернета."
+
+#: ../src/modules/Covers.py:394
+msgid "User Covers"
+msgstr "Локальные обложки"
+
+#: ../src/modules/Covers.py:395
+#, python-format
+msgid ""
+"A user cover is a picture located in the same directory as the current "
+"track. When specifying filenames, you do not need to provide file "
+"extensions, supported file formats (%s) are automatically used."
+msgstr ""
+"Локальная обложка — это изображение, расположенное в той же папке, что и "
+"текущая композиция. При указании имён файлов не следует указывать "
+"расширение; поддерживаемые форматы (%s) будут распознаны автоматически."
+
+#: ../src/modules/Covers.py:398
+msgid "Internet Covers"
+msgstr "Интернет-обложки"
+
+#: ../src/modules/Covers.py:399
+msgid ""
+"Covers may be downloaded from the Internet, based on the tags of the current "
+"track. You can ask to always prefer user covers to Internet ones. In this "
+"case, if a user cover exists for the current track, it is used. If there is "
+"none, the cover is downloaded."
+msgstr ""
+"Обложки могут быть загружены через Интернет, основываясь на тегах "
+"композиции. Есть возможность предпочтения локальных обложек загружаемым. В "
+"таком случае будет использоваться локальная обложка, если таковая найдена; "
+"иначе же обложка будет загружена из Интернета."
+
+#: ../src/modules/Tracktree.py:382 ../src/modules/Tracktree.py:457
+msgid "Export playlist to file"
+msgstr "Экспортировать список воспроизведения в файл"
+
+#: ../src/modules/Tracktree.py:390 ../src/modules/Tracktree.py:462
+msgid "Export playlist to directory"
+msgstr "Экспортировать список воспроизведения в каталог"
+
+#: ../src/modules/Tracktree.py:447
+msgid "Clear Playlist"
+msgstr "Очистить список воспроизведения"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Equalizer"
+msgstr "Эквалайзер"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Tune the level of the frequency bands"
+msgstr "Настроить уровни частотных диапазонов"
+
+#: ../src/modules/Equalizer.py:125 ../src/modules/Equalizer.py:213
+#: ../src/modules/Equalizer.py:226
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: ../src/modules/Equalizer.py:166
+msgid "Save levels"
+msgstr "Сохранить уровни"
+
+#: ../src/modules/Equalizer.py:177
+msgid "Load levels"
+msgstr "Загрузить уровни"
+
+#: ../src/modules/Equalizer.py:204
+msgid "Could not load the file"
+msgstr "Невозможно загрузить файл"
+
+#: ../src/modules/Equalizer.py:204
+msgid "The format of the file is incorrect."
+msgstr "Неправильный формат файла"
+
+#: ../src/tools/consts.py:92
+msgid "Unknown Genre"
+msgstr "Неизвестный жанр"
+
+#: ../src/tools/consts.py:93
+msgid "Unknown Title"
+msgstr "Неизвестное название"
+
+#: ../src/tools/consts.py:94
+msgid "Unknown Album"
+msgstr "Неизвестный альбом"
+
+#: ../src/tools/consts.py:95
+msgid "Unknown Artist"
+msgstr "Неизвестный исполнитель"
+
+#: ../src/tools/consts.py:103
+msgid "Unknown Album Artist"
+msgstr "Неизвестный альбом"
+
+#: ../res/Covers.ui.h:1
+msgid "Filenames:"
+msgstr "Имена файлов:"
+
+#: ../res/Covers.ui.h:2
+msgid "Filenames to look for (e.g., folder, cover)"
+msgstr "Имена для поиска (например, «folder, cover»)"
+
+#: ../res/Covers.ui.h:3
+msgid "<b>User Covers</b>"
+msgstr "<b>Локальные обложки</b>"
+
+#: ../res/Covers.ui.h:4
+msgid "Download covers"
+msgstr "Загрузить обложки"
+
+#: ../res/Covers.ui.h:5
+msgid "Try to download covers from the Internet"
+msgstr "Загружать обложки из Интернета"
+
+#: ../res/Covers.ui.h:6
+msgid "Always prefer user covers"
+msgstr "Предпочитать локальные"
+
+#: ../res/Covers.ui.h:7
+msgid "Don't download covers when there is a user one"
+msgstr "Не загружать обложку, если уже найдена локальная"
+
+#: ../res/Covers.ui.h:8
+msgid "<b>Internet Covers</b>"
+msgstr "<b>Интернет-обложки</b>"
+
+#: ../res/DesktopNotification.ui.h:1
+msgid "<b>Title</b>"
+msgstr "<b>Заголовок</b>"
+
+#: ../res/DesktopNotification.ui.h:2
+msgid "<b>Body</b>"
+msgstr "<b>Тело</b>"
+
+#: ../res/DesktopNotification.ui.h:3
+msgid "Show a \"skip track\" button"
+msgstr "Показывать кнопку «Пропустить композицию»"
+
+#: ../res/DesktopNotification.ui.h:4
+msgid "Notification timeout:"
+msgstr "Время отображения уведомлений:"
+
+#: ../res/DesktopNotification.ui.h:5
+msgid "Time during which the notification is displayed"
+msgstr "Время, в течение которого будут отображаться уведомления"
+
+#: ../res/DesktopNotification.ui.h:6
+msgid "seconds"
+msgstr "секунд(ы)"
+
+#: ../res/DesktopNotification.ui.h:7
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>Дополнительно</b>"
+
+#: ../res/Equalizer.ui.h:1
+msgid "Preset:"
+msgstr "Профиль:"
+
+#: ../res/MainWindow.ui.h:1
+msgid "Play the previous track"
+msgstr "Воспроизвести предыдущую композицию"
+
+#: ../res/MainWindow.ui.h:2
+msgid "Play the first track of the playlist"
+msgstr "Воспроизвести первую композицию из списка воспроизведения"
+
+#: ../res/MainWindow.ui.h:3
+msgid "Play the next track"
+msgstr "Воспроизвести следующую композицию"

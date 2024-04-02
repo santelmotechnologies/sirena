@@ -1,0 +1,484 @@
+# Danish translation for decibel-audio-player
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the decibel-audio-player package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: decibel-audio-player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-24 11:16+0200\n"
+"PO-Revision-Date: 2011-01-18 22:17+0000\n"
+"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"Language-Team: Danish <da@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-19 05:21+0000\n"
+"X-Generator: Launchpad (build 17746)\n"
+
+#: ../src/media/track/__init__.py:52
+msgid "Track number"
+msgstr "Nummer"
+
+#: ../src/media/track/__init__.py:53
+msgid "Title"
+msgstr "Titel"
+
+#: ../src/media/track/__init__.py:54
+msgid "Artist"
+msgstr "Kunstner"
+
+#: ../src/media/track/__init__.py:55
+msgid "Album"
+msgstr "Album"
+
+#: ../src/media/track/__init__.py:56
+msgid "Genre"
+msgstr "Genre"
+
+#: ../src/media/track/__init__.py:57
+msgid "Date"
+msgstr "Dato"
+
+#: ../src/media/track/__init__.py:58
+msgid "Disc number"
+msgstr "Disknummer"
+
+#: ../src/media/track/__init__.py:59
+msgid "Bit rate"
+msgstr "Bitrate"
+
+#: ../src/media/track/__init__.py:60
+msgid "Sample rate"
+msgstr "Målefrekvens"
+
+#: ../src/media/track/__init__.py:61
+msgid "Duration in seconds (e.g., 194)"
+msgstr "Varighed i sekunder (f.eks. 194)"
+
+#: ../src/media/track/__init__.py:62
+msgid "Duration as a string (e.g., 3:14)"
+msgstr "Varighed som tekststreng (f.eks. 3:14)"
+
+#: ../src/media/track/__init__.py:65
+msgid "Full path to the file"
+msgstr "Filens komplette sti"
+
+#: ../src/media/track/__init__.py:150
+msgid "unknown"
+msgstr "ukendt"
+
+#: ../src/media/track/__init__.py:192
+#, python-format
+msgid "%(album)s  [Disc %(discnum)u]"
+msgstr "%(album)s [Disk %(discnum)u]"
+
+#: ../src/media/track/__init__.py:199
+msgid "CDDA Track"
+msgstr "CDDA-spor"
+
+#: ../src/gui/preferences.py:43
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#: ../src/gui/preferences.py:129
+msgid "Unable to load this module."
+msgstr "Kunne ikke indlæse dette modul."
+
+#: ../src/gui/preferences.py:138
+msgid "Modules"
+msgstr "Moduler"
+
+#: ../src/gui/preferences.py:139 ../src/modules/DesktopNotification.py:222
+#: ../src/modules/Covers.py:390
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../src/gui/preferences.py:140
+msgid ""
+"This window shows the list of available modules. You can enable/disable a "
+"module by checking/unchecking the check box in front of it."
+msgstr ""
+"Dette vindue viser listen af tilgængelige moduler. Du kan slå et modul til "
+"eller fra ved at sætte eller fjerne krydset i afkrydsningsfeltet foran det."
+
+#: ../src/gui/preferences.py:142
+msgid "Configuring a Module"
+msgstr "Konfigurerer et modul"
+
+#: ../src/gui/preferences.py:143
+msgid ""
+"When a module may be configured, a specific icon is displayed on the right "
+"of the corresponding line. To configure a module, simply select it and then "
+"click on the \"Preferences\" button on the bottom of the dialog box. Note "
+"that configuring a module is only possible when it is enabled."
+msgstr ""
+"Når et modul kan konfigureres, vises et bestemt ikon på højre side af den "
+"pågældende linje. For at konfigurere et modul skal du markere det og klikke "
+"på \"Indstillinger\"-knappen nederst i dialogboksen. Bemærk at moduler kun "
+"kan konfigureres når de er slået til."
+
+#: ../src/gui/about.py:40
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  AJenbo https://launchpad.net/~ajenbo\n"
+"  Ask Hjorth Larsen https://launchpad.net/~askhl\n"
+"  Jendrik Seipp https://launchpad.net/~jendrikseipp\n"
+"  Joe Hansen https://launchpad.net/~joedalton2"
+
+#: ../src/gui/about.py:44
+msgid "Developer:"
+msgstr "Udvikler:"
+
+#: ../src/gui/about.py:48
+msgid "Thanks to:"
+msgstr "Tak til:"
+
+#: ../src/modules/Search.py:33
+msgid "Search in your music folders"
+msgstr "Søg i dine musikmapper"
+
+#: ../src/modules/Zeitgeist.py:28
+msgid "Send track information to the Zeitgeist service"
+msgstr "Send sporinformation til Zeitgeist-tjenesten"
+
+#: ../src/modules/FileExplorer.py:181
+msgid "loading..."
+msgstr "indlæser..."
+
+#: ../src/modules/FileExplorer.py:407
+msgid "Append"
+msgstr "Tilføj"
+
+#: ../src/modules/FileExplorer.py:419
+msgid "Open containing folder"
+msgstr "Åbn indeholdende mappe"
+
+#: ../src/modules/FileExplorer.py:443
+msgid "Add music folder"
+msgstr "Tilføj musikmappe"
+
+#: ../src/modules/FileExplorer.py:455
+msgid "Hide folder"
+msgstr "Skjul mappe"
+
+#: ../src/modules/FileExplorer.py:469
+msgid "Choose a directory"
+msgstr "Vælg en mappe"
+
+#: ../src/modules/FileExplorer.py:475
+msgid "Invalid Folder"
+msgstr "Ugyldig mappe"
+
+#: ../src/modules/FileExplorer.py:476
+msgid "You cannot add your root or home folder to the music directories"
+msgstr "Du kan ikke tilføje din rod eller hjemmemappe til musikmapperne"
+
+#: ../src/modules/FileExplorer.py:483
+msgid "This path does not exist"
+msgstr "Denne sti eksisterer ikke"
+
+#: ../src/modules/FileExplorer.py:484
+msgid "Please select an existing directory."
+msgstr "Vælg en eksisterende mappe."
+
+#: ../src/modules/FileExplorer.py:571
+msgid "Albums"
+msgstr "Albummer"
+
+#: ../src/modules/FileExplorer.py:573
+msgid "Music"
+msgstr "Musik"
+
+#: ../src/modules/FileExplorer.py:650
+msgid "Right-click to add music folders"
+msgstr "Højreklik for at tilføje musikmapper"
+
+#: ../src/modules/FileExplorer.py:701
+msgid "Searching ..."
+msgstr "Søger..."
+
+#: ../src/modules/FileExplorer.py:727
+msgid "No tracks found"
+msgstr "Ingen numre fundet"
+
+#: ../src/modules/FileExplorer.py:729
+msgid "No music folders have been added"
+msgstr "Der er ikke blevet tilføjet nogen musikmapper"
+
+#: ../src/modules/__init__.py:75
+msgid "The following Python modules are not available:"
+msgstr "De følgende Python-moduler er ikke tilgængelige:"
+
+#: ../src/modules/__init__.py:79
+msgid "You must install them if you want to enable this module."
+msgstr "Du skal installere dem hvis du vil bruge dette modul."
+
+#: ../src/modules/__init__.py:266
+msgid "Restart required"
+msgstr "Genstart påkrævet"
+
+#: ../src/modules/__init__.py:267
+msgid ""
+"You must restart the application for this modification to take effect."
+msgstr ""
+"Du er nødt til at genstarte programmet, for at dine ændringer kan træde "
+"igennem."
+
+#: ../src/modules/CtrlPanel.py:184 ../src/modules/CtrlPanel.py:240
+msgid "Pause the current track"
+msgstr "Sæt dette nummer på pause"
+
+#: ../src/modules/CtrlPanel.py:200
+msgid "Play the first selected track of the playlist"
+msgstr "Afspil det første valgte spor i afspilningslisten"
+
+#: ../src/modules/CtrlPanel.py:234
+msgid "Continue playing the current track"
+msgstr "Fortsæt det nuværende nummer"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Desktop Notification"
+msgstr "Skrivebordspåmindelse"
+
+#: ../src/modules/DesktopNotification.py:26
+msgid "Display a desktop notification on track change"
+msgstr "Vis en skrivebordspåmindelse når nummeret skifter"
+
+#: ../src/modules/DesktopNotification.py:83
+#: ../src/modules/DesktopNotification.py:197
+msgid "Skip track"
+msgstr "Spring over nummer"
+
+#: ../src/modules/DesktopNotification.py:223
+msgid ""
+"This module displays a small popup window on your desktop when a new track "
+"starts."
+msgstr ""
+"Dette modul viser et småt pop op-vindue på dit skrivebord når et nyt nummer "
+"starter."
+
+#: ../src/modules/DesktopNotification.py:224
+msgid ""
+"If the Covers module is enabled, the popup also shows the album cover."
+msgstr "Hvis omslagsmodulet er slået til, vises også albummets omslag."
+
+#: ../src/modules/DesktopNotification.py:225
+msgid "Customizing the Notification"
+msgstr "Indstilling af påmindelsen"
+
+#: ../src/modules/DesktopNotification.py:226
+msgid ""
+"You can change the title and the body of the notification to any text you "
+"want. Before displaying the popup window, fields of the form {field} are "
+"replaced by their corresponding value. Available fields are:\n"
+"\n"
+msgstr ""
+"Du kan ændre titlen og teksten i en påmindelse til hvad du vil. Før pop op-"
+"vinduet vises, erstattes felter på formen {felt} med deres tilhørende værdi. "
+"Tilgængelige felter er:\n"
+"\n"
+
+#: ../src/modules/DesktopNotification.py:229
+msgid "Markup"
+msgstr "Opmærkning"
+
+#: ../src/modules/DesktopNotification.py:230
+msgid ""
+"You can use the Pango markup language to format the text. More information "
+"on that language is available on the following web page:"
+msgstr ""
+"Du kan bruge opmærkningssproget Pango til formatering af teksten. Mere "
+"information om sproget kan findes på følgende webside:"
+
+#: ../src/modules/StatusbarTitlebar.py:48
+msgid "[paused]"
+msgstr "[pause]"
+
+#: ../src/modules/Covers.py:28
+msgid "Covers"
+msgstr "Omslag"
+
+#: ../src/modules/Covers.py:28
+msgid "Show album covers"
+msgstr "Vis albumomslag"
+
+#: ../src/modules/Covers.py:391
+msgid ""
+"This module displays the cover of the album the current track comes from. "
+"Covers may be loaded from local pictures, located in the same directory as "
+"the current track, or may be downloaded from the Internet."
+msgstr ""
+"Dette modul viser omslaget for det album, som det nuværende nummer kommer "
+"fra. Omslag kan indlæses fra lokale billeder, som ligger i samme mappe som "
+"det nuværende nummer, eller de kan hentes fra nettet."
+
+#: ../src/modules/Covers.py:394
+msgid "User Covers"
+msgstr "Brugeromslag"
+
+#: ../src/modules/Covers.py:395
+#, python-format
+msgid ""
+"A user cover is a picture located in the same directory as the current "
+"track. When specifying filenames, you do not need to provide file "
+"extensions, supported file formats (%s) are automatically used."
+msgstr ""
+"Et brugeromslag er et billede, der ligger i samme mappe som det nuværende "
+"nummer. Når du angiver filnavne, behøver du ikke angive filendelser. "
+"Understøttede filformater (%s) bruges automatisk."
+
+#: ../src/modules/Covers.py:398
+msgid "Internet Covers"
+msgstr "Internetomslag"
+
+#: ../src/modules/Covers.py:399
+msgid ""
+"Covers may be downloaded from the Internet, based on the tags of the current "
+"track. You can ask to always prefer user covers to Internet ones. In this "
+"case, if a user cover exists for the current track, it is used. If there is "
+"none, the cover is downloaded."
+msgstr ""
+"Omslag kan hentes fra nettet afhængigt af det nuværende nummers mærker. Du "
+"kan altid foretrække brugeromslag for internetomslag. Hvis der findes et "
+"brugeromslag for et givet nummer, vil dette blive brugt. Ellers hentes et "
+"omslag fra nettet."
+
+#: ../src/modules/Tracktree.py:382 ../src/modules/Tracktree.py:457
+msgid "Export playlist to file"
+msgstr ""
+
+#: ../src/modules/Tracktree.py:390 ../src/modules/Tracktree.py:462
+msgid "Export playlist to directory"
+msgstr ""
+
+#: ../src/modules/Tracktree.py:447
+msgid "Clear Playlist"
+msgstr "Ryd afspilningslisten"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#: ../src/modules/Equalizer.py:24
+msgid "Tune the level of the frequency bands"
+msgstr "Justér niveauet på frekvensbåndene"
+
+#: ../src/modules/Equalizer.py:125 ../src/modules/Equalizer.py:213
+#: ../src/modules/Equalizer.py:226
+msgid "Custom"
+msgstr "Brugerdefineret"
+
+#: ../src/modules/Equalizer.py:166
+msgid "Save levels"
+msgstr "Gem niveauer"
+
+#: ../src/modules/Equalizer.py:177
+msgid "Load levels"
+msgstr "Indlæs niveauer"
+
+#: ../src/modules/Equalizer.py:204
+msgid "Could not load the file"
+msgstr "Kunne ikke indlæse filen"
+
+#: ../src/modules/Equalizer.py:204
+msgid "The format of the file is incorrect."
+msgstr "Denne fil har et forkert format."
+
+#: ../src/tools/consts.py:92
+msgid "Unknown Genre"
+msgstr "Ukendt genre"
+
+#: ../src/tools/consts.py:93
+msgid "Unknown Title"
+msgstr "Ukendt titel"
+
+#: ../src/tools/consts.py:94
+msgid "Unknown Album"
+msgstr "Ukendt album"
+
+#: ../src/tools/consts.py:95
+msgid "Unknown Artist"
+msgstr "Ukendt kunstner"
+
+#: ../src/tools/consts.py:103
+msgid "Unknown Album Artist"
+msgstr "Ukendt albumkunstner"
+
+#: ../res/Covers.ui.h:1
+msgid "Filenames:"
+msgstr "Filnavne:"
+
+#: ../res/Covers.ui.h:2
+msgid "Filenames to look for (e.g., folder, cover)"
+msgstr "Filnavne der skal kigges efter (f.eks. mappe, omslag)"
+
+#: ../res/Covers.ui.h:3
+msgid "<b>User Covers</b>"
+msgstr "<b>Brugeromslag</b>"
+
+#: ../res/Covers.ui.h:4
+msgid "Download covers"
+msgstr "Hent omslag"
+
+#: ../res/Covers.ui.h:5
+msgid "Try to download covers from the Internet"
+msgstr "Forsøg at hente omslag fra nettet"
+
+#: ../res/Covers.ui.h:6
+msgid "Always prefer user covers"
+msgstr "Foretræk altid brugeromslag"
+
+#: ../res/Covers.ui.h:7
+msgid "Don't download covers when there is a user one"
+msgstr "Hent ikke omslag, når der er et brugerangivet omslag"
+
+#: ../res/Covers.ui.h:8
+msgid "<b>Internet Covers</b>"
+msgstr "<b>Internetomslag</b>"
+
+#: ../res/DesktopNotification.ui.h:1
+msgid "<b>Title</b>"
+msgstr "<b>Titel</b>"
+
+#: ../res/DesktopNotification.ui.h:2
+msgid "<b>Body</b>"
+msgstr "<b>Krop</b>"
+
+#: ../res/DesktopNotification.ui.h:3
+msgid "Show a \"skip track\" button"
+msgstr "Vis en \"spring nummer over\"-knap"
+
+#: ../res/DesktopNotification.ui.h:4
+msgid "Notification timeout:"
+msgstr "Tidsudløb for påmindelser:"
+
+#: ../res/DesktopNotification.ui.h:5
+msgid "Time during which the notification is displayed"
+msgstr "Varigheden for visning af påmindelsen"
+
+#: ../res/DesktopNotification.ui.h:6
+msgid "seconds"
+msgstr "sekunder"
+
+#: ../res/DesktopNotification.ui.h:7
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>Diverse</b>"
+
+#: ../res/Equalizer.ui.h:1
+msgid "Preset:"
+msgstr "Forudindstilling:"
+
+#: ../res/MainWindow.ui.h:1
+msgid "Play the previous track"
+msgstr "Spil det forrige nummer"
+
+#: ../res/MainWindow.ui.h:2
+msgid "Play the first track of the playlist"
+msgstr "Spil det første nummer i afspilningslisten"
+
+#: ../res/MainWindow.ui.h:3
+msgid "Play the next track"
+msgstr "Spil det næste nummer"
