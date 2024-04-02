@@ -1,0 +1,28 @@
+=== Roadmap ===
+
+O Don't skip to next track early (currently 2 seconds before end).
+O Search whole system by default (after "locate" finishes).
+O Add application-wide message system for warnings. Should use event system.
+O Show warning if search commands fail.
+
+
+=== Features that will MAYBE be implemented ===
+
+O Stop after current album / track (Playlist context menu entry)
+O Party View (Fullscreen)
+
+
+=== Features that will NOT be implemented ===
+
+- Do not add empty dirs to Tracktree (Irritating)
+- Ellipsize names (Looks odd)
+- Play audio CDs (Rip and play is nicer anyways)
+- Use multiprocessing for searching (Too error prone)
+- Crossfading (too tedious in gstreamer)
+- Lyrics (KISS)
+- Scrobbling Support (KISS)
+- Shuffle
+- Repeat
+- Playlist loading
+- Sound Indicator for Ubuntu SoundMenu (unity is discontinued)
+- Enqueue (KISS)
