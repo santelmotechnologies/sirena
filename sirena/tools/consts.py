@@ -35,7 +35,7 @@ socketTimeout = 10
 
 # --- Strings
 appName = 'Sirena'
-appVersion = '1.0.1'
+appVersion = '1.0'
 appNameShort = 'sirena'
 commands = ['play', 'pause', 'prev', 'next', 'stop']
 
